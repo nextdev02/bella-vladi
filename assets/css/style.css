@@ -98,6 +98,7 @@ img
 .text
 {
   color: var(--text-black);
+  text-align: center;
 }
 
 .text-blue
@@ -113,6 +114,11 @@ img
 .title
 {
   text-align: center;
+}
+
+.uppercase
+{
+  text-transform: uppercase;
 }
 
 /* -----------------Navbar Start----------------- */
@@ -243,7 +249,7 @@ img
 
 .top-part
 {
-  padding-top: 56px;
+  padding-top: 36px;
 }
 
 .top-part .shadow-text
@@ -302,30 +308,430 @@ img
   color: var(--blue-90);
   opacity: 0.3;
 }
-
-
-
-
-
-
-
 /* -----------------Section Two End----------------- */
 
-/* -----------------Navbar Start----------------- */
-/* -----------------Navbar End----------------- */
+/* -----------------List Start----------------- */
 
-/* -----------------Navbar Start----------------- */
-/* -----------------Navbar End----------------- */
+.round
+{
+  width: 10px;
+  height: 10px;
+  background-color: #73CCF2;
+  border-radius: 50%;
+  margin-top: 7px;
+}
 
-/* -----------------Navbar Start----------------- */
-/* -----------------Navbar End----------------- */
+.note 
+{
+  color: #7A7D81;
+  font-size: 20px;
+  font-weight: 400;
+}
 
-/* -----------------Navbar Start----------------- */
-/* -----------------Navbar End----------------- */
+.items
+{
+  display: flex;
+  align-items: self-start;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 35px;
+  padding-bottom: 26px;
+}
+
+.left-item .item, .right-item .item
+{
+  display: flex;
+  gap: 10px;
+}
+
+.item
+{
+  padding-bottom: 8px;
+}
+/* -----------------List End----------------- */
 
 
-/* -----------------Navbar Start----------------- */
-/* -----------------Navbar End----------------- */
+/* -----------------Section Four Start----------------- */
+.section-four
+{
+  background: url(/assets/images/pink-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  padding-bottom: 276px;
+  position: relative;
+  z-index: 3;
+}
+
+.title-four
+{
+  padding-top: 80px;
+}
+
+.star-one
+{
+  width: 196.77px;
+  height: 197.809px;
+  position: absolute;
+  left: 0;
+  top: 2rem;
+}
+
+.star-two
+{
+  width: 68.255px;
+  height: 68.255px;
+  position: absolute;
+  right: 5rem;
+  top: 5rem;
+}
+
+.star-three
+{
+  width: 68.255px;
+  height: 68.255px;
+  position: absolute;
+  left: 5rem;
+}
+
+.star-four
+{
+  width: 196.77px;
+  height: 197.809px;
+  position: absolute;
+  right: 0;
+}
+
+.star-five
+{
+  width: 45.287px;
+  height: 45.287px;
+  position: absolute;
+  left: 5rem;
+}
+
+
+
+
+.boxes
+{
+  padding-top: 12px;
+  padding-bottom: 26px;
+}
+
+.boxes .number-plate
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxes .number-plate .num 
+{
+  font-size: 34px;
+  font-weight: 700;
+  color: #fff;
+  background: url(/assets/images/Ellipse\ 7.svg);
+  background-repeat: no-repeat;
+  height: 77px;
+  width: 77px;
+  text-align: center;
+  padding-top: 13px;
+  z-index: 4;
+}
+
+.box-items
+{
+  position: relative;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: -20px;
+  padding: 40px;
+  width: 690px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  z-index: 3;
+}
+
+.box-details
+{
+  padding-top: 20px;
+}
+
+.box-right
+{
+  width: 178px;
+  position: absolute;
+  bottom: 0;
+  right: -42px;
+}
+
+.box-two img
+{
+  width: 141px;
+}
+
+.box-three img
+{
+  width: 242.99px;
+  margin-left: -3rem;
+}
+/* -----------------Section Four End----------------- */
+
+
+
+
+/* -----------------Color Plate Start----------------- */
+
+.color-plate
+{
+  width: 100%;
+  margin-bottom: 10rem;
+  position: relative;
+  z-index: 30;
+}
+
+.color-plate .color-box
+{
+  height: 381px;
+  width: 690px;
+  background-color: #DF8CA1;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  border-radius: 10px;
+  position: absolute;
+  top: -2.5rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left-plate
+{
+  padding: 5px 5px 15px 53px;
+}
+
+.color-box .left-plate .plate-content
+{
+  color: white;
+  line-height: 1.1;
+}
+
+.color-box .left-plate .brand-logo
+{
+  background-color: #fff;
+  width: 254px;
+  height: 127px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 11.981px;
+  padding: 8px 20px;
+  margin-top: 11px;
+}
+
+.color-box .left-plate .brand-logo .logo-two
+{
+  margin-left: -0.4rem;
+}
+
+
+
+
+.brand-logo .logo-one
+{
+  width: 215px;
+  height: 76px;
+}
+
+.brand-logo .logo-two
+{
+  width: 235.67px;
+  height: 36.216px;
+}
+
+.right-plate img
+{
+  width: 258px;
+  height: 382px;
+}
+/* -----------------Color Plate End----------------- */
+
+
+
+
+/* -----------------Sectioon Five Start----------------- */
+.section-five-box
+{
+  width: 807px;
+  height: 402px;
+  background-color: var(--pink-50);
+  position: relative;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 70px;
+}
+
+.top-content
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 26px 0;
+}
+
+.exc-mark 
+{
+  position: absolute;
+}
+
+.exc-mark img
+{
+  width: 25px;
+}
+
+.top-content img
+{
+  padding-top: 35px;
+  width: 666.509px;
+  height: 293px;
+  position: absolute;
+  bottom: 0;
+}
+
+/* -----------------Section Five End----------------- */
+
+
+/* -----------------Section Six Start----------------- */
+.section-six
+{
+  width: 100%;
+  margin-bottom: 76px;
+}
+
+.section-six-content
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.section-six-content .left-content img
+{
+  width: 379.912px;
+  height: 503px;
+  margin-left: 10rem;
+}
+
+.section-six-content .right-content
+{
+ margin-left: -4.2rem;
+  
+}
+
+.section-six-content .right-content .highlight
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+.section-six-content .right-content .h-one img,
+.section-six-content .right-content .h-two img
+{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid var(--text-blue);
+}
+
+/* -----------------Section Six End----------------- */
+
+
+/* -----------------Section Seven Start----------------- */
+.section-seven
+{
+  width: 100%;
+  background: url(/assets/images/blue0bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  margin-top: 27px;
+}
+
+.section-seven-content
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+  padding-top: 128px;
+  padding-bottom: 86px;
+}
+
+.section-seven-content .content-top
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-seven-content .content-top .content-left .blue-icon .white-box
+{
+  width: 515px;
+  height: 188px;
+  background-color: #fff;
+  border: 2px solid var(--text-blue);
+  border-radius: 10px;
+  padding: 30px 20px;
+  text-align: center;
+  line-height: 1.1;
+}
+
+.section-seven-content .content-top .content-left .blue-icon 
+{
+ position: relative;
+}
+
+.section-seven-content .content-top .content-left .blue-icon img
+{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section-seven-content .content-top .content-right img
+{
+  width: 401.571px;
+}
+
+/* -----------------Section Seven End----------------- */
+
+
+/* -----------------Section Eight Start----------------- */
+.section-eight
+{
+  background: url(/assets/images/pink-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+/* -----------------Section Nine Start----------------- */
 
 /* -----------------Navbar Start----------------- */
 /* -----------------Navbar End----------------- */
