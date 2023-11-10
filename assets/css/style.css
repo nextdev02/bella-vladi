@@ -55,12 +55,36 @@ a {
   text-decoration: none;
 }
 
-h1
+h1, h2, h3, h4, h5
 {
-  font-size: var(--heading-1);
   font-style: normal;
   font-weight: 400;
   line-height: 100%;
+}
+
+h1
+{
+  font-size: var(--heading-1);
+}
+
+h2
+{
+  font-size: var(--heading-2);
+}
+
+h3
+{
+  font-size: var(--heading-3);
+}
+
+h4
+{
+  font-size: var(--heading-4);
+}
+
+h5
+{
+  font-size: var(--heading-5);
 }
 
 img
@@ -85,6 +109,9 @@ img
 }
 
 
+
+
+
 /* -----------------Navbar Start----------------- */
 
 .navbar
@@ -106,6 +133,7 @@ img
 
 
 /* -----------------Home Section Start----------------- */
+
 .home
 {
   margin: 0 auto;
@@ -157,30 +185,46 @@ img
   gap: 35px;
   width: 100%;
   padding: 35px 0;
+  position: relative;
 }
 
 .hero-bottom .hero-left
 {
   width: 40%;
+  padding-left: 89px;
 }
 
-.hero-bottom .hero-left 
+.hero-bottom .hero-left .arrow 
+{
+  position: absolute;
+  left: 20%;
+  top: 36%;
+  width: 256.106px;
+}
+
+.hero-bottom .hero-left .hero-content
+{
+  font-size: var(--heading-5);
+}
 
 
 
 .hero-bottom .hero-right
 {
   width: 60%;
+  display: flex;
+  justify-content: end;
 }
 
 .hero-bottom .hero-right .hero-left-img img
 {
+
   height: 388px;
 }
 
-
-
 /* -----------------Home Section End----------------- */
+
+
 
 /* -----------------Navbar Start----------------- */
 /* -----------------Navbar End----------------- */
