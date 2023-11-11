@@ -725,19 +725,237 @@ img
 /* -----------------Section Eight Start----------------- */
 .section-eight
 {
-  background: url(/assets/images/pink-bg.png);
+  width: 100%;
+  background: url(/assets/images/section-eight-bg.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
+  position: relative;
+
 }
 
+.section-eight .right-img 
+{
+  background: url(/assets/images/Section-eight-img.png);
+  background-repeat: no-repeat;
+  width: 498.02px;
+  height: 833px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+
+.section-eight-content 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 782px;
+  width: 100%;
+
+}
+
+.section-eight-content .left-content
+{
+  width: 60%;
+}
+
+.section-eight-content .content-title h1
+{
+  font-family: Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--text-pink);
+}
+
+.section-eight-content .left-content .button
+{
+  display: flex;
+  padding: 26px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: -3rem;
+}
+
+
+.section-eight-content .left-content .button img
+{
+  width: 83.424px;
+  height: 71px;
+}
+
+.section-eight-content .left-content .button button
+{
+  padding: 18px 50px;
+  border-radius: 20px;
+  border: 2px solid #C8637D;
+  background: #C8637D;
+  color: #FFF;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 36px;
+  margin-top: 3rem;
+}
+
+
+/* ----------------- Section Eight End ----------------- */
+
+
+
 /* -----------------Section Nine Start----------------- */
+.section-nine
+{
+  width: 100%;
+  margin-top: 5rem;
+}
 
-/* -----------------Navbar Start----------------- */
-/* -----------------Navbar End----------------- */
+.time-content 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+  margin-bottom: 86px;
+}
 
-/* -----------------Navbar Start----------------- */
-/* -----------------Navbar End----------------- */
+.time-content .colon 
+{
+  margin-top: -2rem;
+}
+
+.time-content .time
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.time-content input
+{
+  border: none;
+  color: #fff;
+  font-size: 68px;
+  font-weight: 700;
+  letter-spacing: 13px;
+  border-radius: 7.74px;
+  background: linear-gradient(180deg, #DF8CA1 0%, #ECADBD 100%), linear-gradient(195deg, #429DC3 -19.23%, #ACD6E9 108.23%);
+  text-align: center;
+  width: 150px;
+  height: 90px;
+}
+
+.time-content label
+{
+  font-family: Helvetica;
+  font-size: 20px;
+  color: var(--text-pink);
+  font-weight: 400;
+  margin-top: -0.3rem;
+}
+
+/* -----------------Section Nine End----------------- */
+
+
+/* -----------------About Section Start----------------- */
+
+.about-me
+{
+  width: 100%;
+  margin-bottom: 76px;
+}
+
+.border
+{
+  width: 930px;
+  margin: 0 auto;
+  height: 1px;
+  background: #E0E0E0;
+}
+
+.about-content
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 65px;
+  padding-top: 38px;
+}
+
+.about-content .my-img
+{
+  width: 251px;
+  height: 251px;
+}
+
+.about-content .details 
+{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.about-content .details .name 
+{
+  font-family: Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.about-content .details img
+{
+  width: 255.87px;
+  height: 107px;
+}
+
+
+.about-content .details .mail 
+{
+  font-family: Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.about-content .details .social-icon
+{
+  display: flex;
+  gap: 25px;
+}
+
+.about-content .details .social-icon svg
+{
+  height: 42px;
+  width: 42px;
+}
+
+/* -----------------About Section End----------------- */
+
+
+
+/* -----------------Footer Start----------------- */
+.footer
+{
+  width: 100%;
+  background-color: var(--text-dark);
+  padding: 11px 0;
+}
+
+.footer .footer-logo 
+{
+  width: 294.254px;
+  height: 58.413px;
+  margin: 0 auto;
+}
+
+/* -----------------Footer End----------------- */
+
+
+
+
 
 
 /* -----------------Navbar Start----------------- */
