@@ -1,4 +1,4 @@
-// Here You Can Set Your Offer/Discount Time 
+// Here You Can Set/Edit Your Offer/Discount/Upcomming Time 
 const endDate = "24 November 2023 08:20:00 PM"
 
 
