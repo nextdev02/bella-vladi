@@ -860,10 +860,10 @@ img {
 
 
 
-/* --------------------------------------------------- Email Two Page Start ------------------------------------------- */
+/* --------------------------------------------------- Email-2 Page Start ------------------------------------------- */
 
 
-/* -----------------Home Start----------------- */
+/* ----------------- Email-2 Home Start----------------- */
 .hero-banner .left-star {
   position: absolute;
   top: 2rem;
@@ -930,9 +930,9 @@ img {
   height: 565.262px;
 }
 
-/* -----------------Home End----------------- */
+/* ----------------- Email-2 Home End----------------- */
 
-/* ----------------- Tips Section Start----------------- */
+/* ----------------- Email-2 Tips Section Start----------------- */
 .tips {
   display: flex;
   align-items: center;
@@ -962,12 +962,12 @@ img {
   gap: 16px;
 }
 
-/* ----------------- Tips Section End----------------- */
+/* ----------------- Email-2 Tips Section End----------------- */
 
 
 
 
-/* ----------------- Service Section Start----------------- */
+/* ----------------- Email-2 Service Section Start----------------- */
 .service-content {
   display: flex;
   align-items: center;
@@ -1016,10 +1016,10 @@ img {
   height: 98px;
 }
 
-/* ----------------- Service Section End----------------- */
+/* ----------------- Email-2 Service Section End----------------- */
 
 
-/* ----------------- Service Items Start----------------- */
+/* ----------------- Email-2 Service Items Start----------------- */
 .service-items {
   margin-bottom: 50px;
 }
@@ -1058,11 +1058,11 @@ img {
   height: 333px;
 }
 
-/* ----------------- Service Items End----------------- */
+/* ----------------- Email-2 Service Items End----------------- */
 
 
 
-/* ----------------- Pink BOx Start----------------- */
+/* ----------------- Email-2 Pink BOx Start----------------- */
 .section-pink-box .container {
   margin-bottom: 42px;
   width: 100%;
@@ -1088,27 +1088,25 @@ img {
   line-height: normal;
   font-family: Helvetica;
 }
-/* ----------------- Pink BOx End----------------- */
+
+/* ----------------- Email-2 Pink BOx End----------------- */
 
 
 
-/* ----------------- Review Section Start----------------- */
-.review-section
-{
+/* ----------------- Email-2 Review Section Start----------------- */
+.review-section {
   margin-bottom: 76px;
   width: 100%;
 }
 
-.review-section .review-content 
-{
+.review-section .review-content {
   display: flex;
   align-items: start;
   justify-content: center;
   gap: 70px;
 }
 
-.review-section .review-content .review-left-side h4
-{
+.review-section .review-content .review-left-side h4 {
   text-align: center;
   font-family: Helvetica;
   font-size: 28px;
@@ -1117,22 +1115,19 @@ img {
   padding-bottom: 24px;
 }
 
-.review-section .review-content .review-left-side img
-{
+.review-section .review-content .review-left-side img {
   width: 383px;
   height: 350px;
 }
 
-.review-section .review-content .review-left-side .blue-btn
-{
+.review-section .review-content .review-left-side .blue-btn {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: -1rem;
 }
 
-.review-section .review-content .review-left-side .blue-btn button
-{
+.review-section .review-content .review-left-side .blue-btn button {
   width: 290px;
   padding: 26px 40px;
   padding: 26px 40px;
@@ -1146,8 +1141,7 @@ img {
   border: none;
 }
 
-.review-section .review-content .review-right-side h4
-{
+.review-section .review-content .review-right-side h4 {
   text-align: center;
   font-family: Helvetica;
   font-size: 28px;
@@ -1156,22 +1150,19 @@ img {
   padding-bottom: 24px;
 }
 
-.review-section .review-content .review-right-side img
-{
+.review-section .review-content .review-right-side img {
   width: 420px;
-height: 338px;
+  height: 338px;
 }
 
-.review-section .review-content .review-right-side .blue-btn
-{
+.review-section .review-content .review-right-side .blue-btn {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: -1rem;
 }
 
-.review-section .review-content .review-right-side .blue-btn button
-{
+.review-section .review-content .review-right-side .blue-btn button {
   width: 290px;
   padding: 26px 40px;
   padding: 26px 40px;
@@ -1185,42 +1176,19 @@ height: 338px;
   border: none;
 }
 
-.review-section .brand-logo-two 
-{
+.review-section .brand-logo-two {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.review-section .brand-logo-two img 
-{
+.review-section .brand-logo-two img {
   margin-top: 43px;
   width: 314px;
-height: 157px;
+  height: 157px;
 }
 
-/* ----------------- Review Section End----------------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ----------------- Email-2  Review Section End----------------- */
 
 
 
@@ -1232,3 +1200,152 @@ height: 157px;
 
 
 /* --------------------------------------------------- Email Three Page Start ------------------------------------------- */
+
+
+
+/* ------------------ Email-3  Hero Banner start ------------------ */
+.hero-banner-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 274px;
+  background-color: var(--blue-50);
+  border-radius: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-banner-three .h-top {
+  color: var(--text-blue);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.hero-banner-three .h-bottom {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.hero-banner-three .left-star-down {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* ------------------ Email-3  Hero Banner End ------------------ */
+
+
+/* ------------------ Email-3  Hero Content start ------------------ */
+.home-three-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.home-three-content .left-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 29px;
+  position: relative;
+}
+
+.home-three-content .left-content .part-one,
+.home-three-content .left-content .part-three,
+.home-three-content .left-content .part-four,
+.home-three-content .left-content .part-five {
+  padding-left: 53px;
+}
+
+.home-three-content .left-content .part-two {
+  height: 125px;
+  width: 666px;
+  background-color: var(--pink-50);
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.home-three-content .left-content .part-two img {
+  width: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.home-three-content .left-content .part-two h5 {
+  padding-left: 50px;
+}
+
+
+.home-three-content .left-content .part-five {
+  display: flex;
+}
+
+.home-three-content .left-content .part-five .left-to-right img {
+  width: 210.5px;
+  height: 55.593px;
+  margin-left: 8rem;
+  margin-top: -3.5rem;
+}
+
+.home-three-content .left-content .part-five .middle-img {
+  position: absolute;
+  right: -120px;
+  bottom: -9rem;
+  z-index: 10;
+}
+
+
+.home-three-content .left-content .part-five .middle-img img {
+  width: 336px;
+  height: 336px;
+}
+
+.home-three-content .right-content img {
+  width: 420px;
+  height: 614px;
+}
+/* ------------------ Email-3  Hero Content End ------------------ */
+
+
+
+/* ------------------ Email-3 Third Section Start ------------------ */
+
+/* ------------------ Email-3 Third Sectiont End ------------------ */
+
+
+/* ------------------ Email-3 Third Section Start ------------------ */
+
+/* ------------------ Email-3 Third Sectiont End ------------------ */
+
+
+/* ------------------ Email-3 Third Section Start ------------------ */
+
+/* ------------------ Email-3 Third Sectiont End ------------------ */
+
+
+/* ------------------ Email-3 Third Section Start ------------------ */
+
+/* ------------------ Email-3 Third Sectiont End ------------------ */
+
+
+/* ------------------ Email-3 Third Section Start ------------------ */
+
+/* ------------------ Email-3 Third Sectiont End ------------------ */
+
+
+/* ------------------ Email-3 Third Section Start ------------------ */
+
+/* ------------------ Email-3 Third Sectiont End ------------------ */
