@@ -1493,39 +1493,39 @@ img {
 
 .feedback-content .feedback-container .feedback-right .client-img-3 {
   width: 271.134px;
-height: 313.248px;
+  height: 313.248px;
   margin-left: -2rem;
 }
 
 .feedback-content .feedback-container .feedback-right .client-img-4 {
   width: 228.138px;
-height: 286.06px;
+  height: 286.06px;
   margin-right: -2rem;
 }
 
 
 .feedback-content .feedback-container .feedback-right .client-img-5 {
   width: 261px;
-height: 252.987px;
+  height: 252.987px;
   margin-left: -2rem;
 }
 
 .feedback-content .feedback-container .feedback-right .client-img-6 {
   width: 234.157px;
-height: 325.416px;
+  height: 325.416px;
   margin-right: -2rem;
 }
 
 
 .feedback-content .feedback-container .feedback-right .client-img-7 {
   width: 310.351px;
-height: 202.885px;
+  height: 202.885px;
   margin-left: -2rem;
 }
 
 .feedback-content .feedback-container .feedback-right .client-img-8 {
   width: 247.277px;
-height: 377px;
+  height: 377px;
   margin-right: -2rem;
 }
 
@@ -1540,8 +1540,7 @@ height: 377px;
 
 /* -------- Before-After 1------- */
 
-.ba-1
-{
+.ba-1 {
   width: 100%;
   background: url(/assets/images/email-one/blue0bg.png);
   background-repeat: no-repeat;
@@ -1550,15 +1549,96 @@ height: 377px;
   margin-bottom: 26px;
 }
 
-.ba-1 .ba-1-content 
-{
+.ba-1 .ba-1-content {
   height: 542.595px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  gap: 10px;
 }
+
+.ba-1 .ba-1-content .top-title,
+.ba-2 .ba-2-content .top-title,
+.ba-4 .ba-3-content .top-title,
+.ba-5 .ba-5-content .top-title,
+.ba-5 .ba-5-content .top-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.ba-1 .ba-1-content .ba-images,
+.ba-2 .ba-2-content .ba-images,
+.ba-3 .ba-3-content .ba-images,
+.ba-4 .ba-4-content .ba-images,
+.ba-5 .ba-5-content .ba-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.ba-3 {
+  width: 100%;
+  background: url(/assets/images/email-three/pink-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  margin-top: 36px;
+  position: relative;
+}
+
+.ba-3 .pink-star-1
+{
+  position: absolute;
+  top: 5rem;
+}
+
+.ba-3 .pink-star-2
+{
+  position: absolute;
+  top: 15rem;
+  left: 16rem;
+}
+
+.ba-3 .pink-star-3
+{
+  width: 196.77px;
+  height: 197.809px;
+  position: absolute;
+  top: 20rem;
+  right: 0;
+}
+
+.ba-3 .ba-3-content {
+  height: 872.595px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.ba-5 {
+  width: 100%;
+  background: url(/assets/images/email-one/blue0bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  margin-bottom: 26px;
+  margin-top: 36px;
+}
+
+.ba-5 .ba-5-content {
+  height: 702.595px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+
 
 
 /* -------- Before-After 2------- */
