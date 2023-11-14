@@ -1193,12 +1193,6 @@ img {
 
 
 
-
-
-
-
-
-
 /* --------------------------------------------------- Email Three Page Start ------------------------------------------- */
 
 
@@ -1317,35 +1311,265 @@ img {
   width: 420px;
   height: 614px;
 }
+
 /* ------------------ Email-3  Hero Content End ------------------ */
 
 
 
+/* ------------------ Email-3 2nd Section Start ------------------ */
+
+.section-two {
+  position: relative;
+}
+
+.section-two .before-after {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  padding: 115px 0;
+}
+
+.before-after .cross-icon-1 {
+  position: absolute;
+  top: 9rem;
+  left: 4rem;
+  width: 68.255px;
+  height: 68.255px;
+}
+
+.before-after .cross-icon-2 {
+  position: absolute;
+  top: 25rem;
+  left: 5rem;
+  width: 45.287px;
+  height: 45.287px;
+}
+
+.before-after .star-icon-1 {
+  position: absolute;
+  top: 25rem;
+  right: 0;
+  width: 196.77px;
+  height: 197.809px;
+}
+
+
+.before-after .before-after-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+}
+
+/* ------------------ Email-3 2nd Sectiont End ------------------ */
+
+
 /* ------------------ Email-3 Third Section Start ------------------ */
+.process-list .process {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 54px;
+  padding-top: 43px;
+}
+
+.process-list .process .process-left .process-list,
+.process-list .process .process-right .process-list {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 14px;
+}
+
+.process-list .process .process-left,
+.process-list .process .process-right {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 19px;
+}
+
+
+.process-list .process .process-list img {
+  height: 50px;
+  width: 50px;
+  margin-top: -10px;
+}
+
+.process-list .logo-w-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+  margin-top: 56px;
+}
+
+.process-list .logo-w-title .email-3-logo img {
+  width: 303px;
+  height: 151.5px;
+}
 
 /* ------------------ Email-3 Third Sectiont End ------------------ */
 
 
-/* ------------------ Email-3 Third Section Start ------------------ */
 
-/* ------------------ Email-3 Third Sectiont End ------------------ */
+/* ------------------ Email-3 Feedback Section Start ------------------ */
+
+.feedback {
+  margin-top: 56px;
+}
+
+.feedback-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feedback-content .feedback-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback-content .feedback-container .feedback-left .pinkbox-left {
+  width: 600px;
+  height: 220px;
+  background-color: var(--pink-50);
+  border-radius: 20px;
+  padding: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: -10;
+}
+
+.feedback-content .feedback-container .feedback-left .pinkbox-right {
+  width: 621px;
+  height: 217px;
+  background-color: var(--pink-50);
+  border-radius: 20px;
+  padding: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: -10;
+}
 
 
-/* ------------------ Email-3 Third Section Start ------------------ */
+.feedback-content .feedback-container .feedback-left .pinkbox-left img,
+.feedback-content .feedback-container .feedback-left .pinkbox-right img {
+  width: 85.498px;
+  height: 74.157px;
+}
 
-/* ------------------ Email-3 Third Sectiont End ------------------ */
+.feedback-content .feedback-container .feedback-left .pinkbox-left img {
+  position: absolute;
+  top: -2.2rem;
+}
+
+.feedback-content .feedback-container .feedback-left .pinkbox-right img {
+  position: absolute;
+  right: 3.5rem;
+  top: -2.2rem;
+}
 
 
-/* ------------------ Email-3 Third Section Start ------------------ */
+.feedback-content .feedback-container .feedback-right .client-img-1 {
+  width: 278px;
+  height: 269.465px;
+  margin-left: -2rem;
+}
 
-/* ------------------ Email-3 Third Sectiont End ------------------ */
+.feedback-content .feedback-container .feedback-right .client-img-2 {
+  width: 209.047px;
+  height: 377px;
+  margin-right: -2rem;
+}
+
+.feedback-content .feedback-container .feedback-right .client-img-3 {
+  width: 271.134px;
+height: 313.248px;
+  margin-left: -2rem;
+}
+
+.feedback-content .feedback-container .feedback-right .client-img-4 {
+  width: 228.138px;
+height: 286.06px;
+  margin-right: -2rem;
+}
 
 
-/* ------------------ Email-3 Third Section Start ------------------ */
+.feedback-content .feedback-container .feedback-right .client-img-5 {
+  width: 261px;
+height: 252.987px;
+  margin-left: -2rem;
+}
 
-/* ------------------ Email-3 Third Sectiont End ------------------ */
+.feedback-content .feedback-container .feedback-right .client-img-6 {
+  width: 234.157px;
+height: 325.416px;
+  margin-right: -2rem;
+}
 
 
-/* ------------------ Email-3 Third Section Start ------------------ */
+.feedback-content .feedback-container .feedback-right .client-img-7 {
+  width: 310.351px;
+height: 202.885px;
+  margin-left: -2rem;
+}
 
-/* ------------------ Email-3 Third Sectiont End ------------------ */
+.feedback-content .feedback-container .feedback-right .client-img-8 {
+  width: 247.277px;
+height: 377px;
+  margin-right: -2rem;
+}
+
+/* ------------------ Email-3 Feedback Sectiont End ------------------ */
+
+
+
+
+
+
+/* ------------------ Email-3 Before-After Section Start ------------------ */
+
+/* -------- Before-After 1------- */
+
+.ba-1
+{
+  width: 100%;
+  background: url(/assets/images/email-one/blue0bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  margin-bottom: 26px;
+}
+
+.ba-1 .ba-1-content 
+{
+  height: 542.595px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+/* -------- Before-After 2------- */
+
+
+/* -------- Before-After 3------- */
+
+
+/* -------- Before-After 4------- */
+
+/* -------- Before-After 5------- */
+
+
+/* ------------------ Email-3 Before-After Sectiont End ------------------ */
