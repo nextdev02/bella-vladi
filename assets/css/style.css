@@ -135,11 +135,9 @@ img {
 
 .home {
   margin: 0 auto;
-
 }
 
 .home .hero-banner {
-  width: 100%;
   height: 286px;
   border-radius: 30px;
   background: var(--pink-50);
@@ -162,6 +160,8 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
+  width: 196.77px;
+  height: 197.809px;
 }
 
 .hero-banner .hero-heading {
@@ -172,25 +172,20 @@ img {
 }
 
 .hero-bottom {
+  position: relative;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 35px;
-  width: 100%;
-  padding: 35px 0;
-  position: relative;
+  justify-content: center;
+  gap: 46px;
+  margin-top: 36px
 }
 
-.hero-bottom .hero-left {
-  width: 40%;
-  padding-left: 89px;
-}
 
 .hero-bottom .hero-left .arrow {
   position: absolute;
-  left: 20%;
-  top: 36%;
-  width: 256.106px;
+  margin-left: 10rem;
+  margin-top: -3rem;
+  width: 226.106px;
 }
 
 .hero-bottom .hero-left .hero-content {
@@ -198,15 +193,8 @@ img {
 }
 
 
-.hero-bottom .hero-right {
-  width: 60%;
-  display: flex;
-  justify-content: end;
-}
-
 .hero-bottom .hero-right .hero-left-img img {
-
-  height: 388px;
+  width: 515.048px;
 }
 
 /* -----------------Home Section End----------------- */
@@ -215,7 +203,6 @@ img {
 
 /* -----------------Section Two Start----------------- */
 .section-two {
-  width: 100%;
   background: url(/assets/images/email-one/blue0bg.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -279,6 +266,8 @@ img {
 }
 
 /* -----------------Section Two End----------------- */
+
+
 
 /* -----------------List Start----------------- */
 
@@ -550,7 +539,6 @@ img {
 
 /* -----------------Section Six Start----------------- */
 .section-six {
-  width: 100%;
   margin-bottom: 76px;
 }
 
@@ -569,7 +557,6 @@ img {
 
 .section-six-content .right-content {
   margin-left: -4.2rem;
-
 }
 
 .section-six-content .right-content .highlight {
@@ -613,13 +600,11 @@ img {
 .section-seven-content .content-top {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 80%;
-  margin: 0 auto;
+  justify-content: center;
+  gap: 46px;
 }
 
 .section-seven-content .content-top .content-left .blue-icon .white-box {
-  width: 515px;
   height: 188px;
   background-color: #fff;
   border: 2px solid var(--text-blue);
@@ -725,7 +710,6 @@ img {
 
 /* -----------------Section Nine Start----------------- */
 .section-nine {
-  width: 100%;
   margin-top: 5rem;
 }
 
@@ -780,7 +764,7 @@ img {
 }
 
 .border {
-  width: 930px;
+  width: 85%;
   margin: 0 auto;
   height: 1px;
   background: #E0E0E0;
@@ -1627,6 +1611,7 @@ img {
   background-position: center;
   margin-bottom: 26px;
   margin-top: 36px;
+  position: relative;
 }
 
 .ba-5 .ba-5-content {
@@ -1638,18 +1623,18 @@ img {
   gap: 10px;
 }
 
+.ba-5 .blue-star-1
+{
+  position: absolute;
+  top: 7rem;
+  right: 7rem;
+}
+
+.ba-5 .blue-star-2
+{
+  position: absolute;
+  right: 9rem;
+  bottom: 16rem;
+}
 
 
-
-/* -------- Before-After 2------- */
-
-
-/* -------- Before-After 3------- */
-
-
-/* -------- Before-After 4------- */
-
-/* -------- Before-After 5------- */
-
-
-/* ------------------ Email-3 Before-After Sectiont End ------------------ */
