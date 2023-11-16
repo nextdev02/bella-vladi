@@ -387,12 +387,12 @@
     width: 48px;
     height: 48px;
   }
-  
+
   .hero-banner .left-star-down {
     width: 26px;
     height: 26px;
   }
-  
+
   .hero-banner .right-star {
     width: 86.77px;
     height: 87.809px;
@@ -410,10 +410,12 @@
     padding-top: 5px;
     font-size: 22px;
   }
+
   .hero-two-bottom {
     flex-direction: column;
-    
+
   }
+
   .hero-two-bottom .hero-two-left {
     order: 1;
   }
@@ -452,7 +454,7 @@
   }
 
   .service-content .content-left .left-icon {
-   display: none;
+    display: none;
   }
 
   .service-content .button .service-btn {
@@ -472,20 +474,22 @@
   }
 
   /* ----------------- Email-2 Service Items Start----------------- */
-  .service-items .service-item-list {
-    width: 100%;
+  .service-items .service-item-list .service-list {
+    margin-left: 0%;
   }
 
-  .service-items .service-item-list .service-list .blue-icon {
-    width: 28px;
-    height: 28px;
+
+  .service-items .service-item-list .service-list .blue-icon  svg{
+    width: 25px;
+    height: 25px ;
     margin-top: -8px;
   }
+
   .service-items .service-img img {
     width: 382px;
     height: 253px;
   }
-  
+
 
   /* ----------------- Email-2 Pink BOx Start----------------- */
   .pink-box {
@@ -528,6 +532,256 @@
     width: 194px;
     height: 97px;
   }
+
+
+    /* --------------------------------------------------- Email Three Page Start ------------------------------------------- */
+
+  /* Home Section */
+
+  .hero-banner-three {
+    height: 144px;
+  }
+
+  .hero-banner-three .h-top {
+    font-size: 20px;
+  }
+
+  .hero-banner-three .h-bottom {
+    font-size: 16px;
+  }
+
+  .hero-banner-three .left-star-down {
+    width: 70px;
+  }
+
+  .home-three-content
+  {
+    flex-direction: column;
+  }
+
+  .home-three-content .left-content .part-two {
+    height: 100px;
+    width: 337px;
+  }
+  .home-three-content .left-content .part-two h5 {
+    padding-left: 25px;
+  }
+  
+  .home-three-content .left-content .part-two img {
+    width: 12px;
+  }
+
+  .home-three-content .left-content .part-five .middle-img img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .home-three-content .left-content .part-five .middle-img {
+    right: -2px;
+    bottom: -21rem;
+  }
+
+
+  .home-three-content .left-content .part-one,
+  .home-three-content .left-content .part-three,
+  .home-three-content .left-content .part-four,
+  .home-three-content .left-content .part-five {
+    padding-left: 23px;
+  }
+
+  .home-three-content .left-content .part-five .left-to-right img {
+    display: none;
+  }
+
+
+  .home-three-content .right-content img {
+    width: 250px;
+    height: 354px;
+  }
+
+  /* Section 2 */
+  .before-after  .cross-icon-1,
+  .before-after .cross-icon-2,
+  .before-after .star-icon-1  {
+  display: none;
+  }
+
+  .before-after .before-after-img {
+    gap: 25px;
+  }
+
+  .before-after .before-after-img .before-26 {
+    width: 150px;
+    height: auto;
+  }
+
+  .before-after .before-after-img .after-37 {
+    width: 150px;
+    height: auto;
+  }
+
+  /* Process List */
+  .process-list .process {
+    gap: 18px;
+    flex-direction: column;
+  }
+
+  .process-list .process .process-right {
+    margin-left: 1rem;
+  }
+  
+  
+  .process-list .process .process-list img {
+    height: 25px;
+    width: 25px;
+  }
+
+  .process-list .logo-w-title {
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+
+  .process-list .logo-w-title .email-3-logo img {
+    width: 203px;
+    height: 100px;
+  }
+
+  /* ------------------ Email-3 Feedback Section Start ------------------ */
+
+  
+  .feedback-content .feedback-container .feedback-left .pinkbox-left {
+    width: 250px;
+    height: 130px;
+    padding: 20px;
+  }
+
+  .feedback-content .feedback-container .feedback-left .pinkbox-right {
+    width: 300px;
+    height: 130px;
+    padding: 30px;
+  }
+
+  .feedback-content .feedback-container .feedback-left .pinkbox-left img,
+.feedback-content .feedback-container .feedback-left .pinkbox-right img {
+  width: 45.498px;
+  height: 44.157px;
+}
+
+.feedback-content .feedback-container .feedback-right .client-img-1 {
+  width: 118px;
+  height: auto;
+}
+
+.feedback-content .feedback-container .feedback-right .client-img-2 {
+  width: 110px;
+  height: auto;
+}
+
+.feedback-content .feedback-container .feedback-right .client-img-3 {
+  width: 111.134px;
+  height: auto;
+}
+
+.feedback-content .feedback-container .feedback-right .client-img-4 {
+  width: 121.134px;
+  height: auto;
+}
+
+
+.feedback-content .feedback-container .feedback-right .client-img-5 {
+  width: 111.134px;
+  height: auto;
+}
+
+.feedback-content .feedback-container .feedback-right .client-img-6 {
+  width: 121.134px;
+  height: auto;
+}
+
+
+.feedback-content .feedback-container .feedback-right .client-img-7 {
+  width: 121.134px;
+  height: auto;
+  margin-right: 0px;
+}
+
+.feedback-content .feedback-container .feedback-right .client-img-8 {
+  width: 121.134px;
+  height: auto;
+}
+
+  /* Before After 3 */
+
+  .ba-3 .pink-star-1,
+  .ba-3 .pink-star-2,
+  .ba-3 .pink-star-3,
+  .ba-5 .blue-star-1,
+  .ba-5 .blue-star-2 {
+    display: none;
+  }
+
+  .ba-1 .ba-1-content .top-title,
+.ba-2 .ba-2-content .top-title,
+.ba-4 .ba-3-content .top-title,
+.ba-5 .ba-5-content .top-title,
+.ba-5 .ba-5-content .top-title {
+  font-size: 24px;
+}
+
+.ba-1 .ba-1-content .ba-images {
+  flex-direction: column;
+}
+
+.ba-1 .ba-1-content .ba-images .before-one img,
+.ba-1 .ba-1-content .ba-images .after-one img
+{
+  width: 230px;
+  height: auto;
+}
+
+.ba-2 .ba-2-content .ba-images .before-two img,
+.ba-2 .ba-2-content .ba-images .after-two img
+{
+  width: 130px;
+  height: auto;
+}
+
+.ba-3 .ba-3-content {
+  height: auto;
+  padding: 3rem 0;
+}
+
+.ba-3 .ba-3-content .ba-images .before-three img
+{
+  width: 130px;
+  height: auto;
+}
+
+.ba-3 .ba-3-content .ba-images .after-three img
+{
+  width: 120px;
+  height: auto;
+}
+
+.ba-4 .ba-4-content .ba-images .before-four img,
+.ba-4 .ba-4-content .ba-images .after-four img
+{
+  width: 130px;
+  height: auto;
+}
+.ba-5 .ba-5-content {
+  height: auto;
+  padding: 3rem 0;
+}
+
+.ba-5 .ba-5-content .ba-images .before-five img,
+.ba-5 .ba-5-content .ba-images .after-five img
+{
+  width: 130px;
+  height: auto;
+}
+
 
 }
 
@@ -853,11 +1107,11 @@
   }
 
   /* ----------------- Email-2 Service Items Start----------------- */
-  .service-items .service-item-list {
-    width: 100%;
+  .service-items .service-item-list .service-list {
+    margin-left: 0 auto;
   }
 
-  .service-items .service-item-list .service-list .blue-icon {
+  .service-items .service-item-list .service-list .blue-icon svg{
     width: 40px;
     height: 40px;
     margin-top: -8px;
@@ -905,6 +1159,168 @@
     height: 107px;
   }
 
+  /* --------------------------------------------------- Email Three Page Start ------------------------------------------- */
+
+  /* Home Section */
+
+  .hero-banner-three {
+    height: 164px;
+  }
+
+  .hero-banner-three .h-top {
+    font-size: 26px;
+  }
+
+  .hero-banner-three .h-bottom {
+    font-size: 20px;
+  }
+
+  .hero-banner-three .left-star-down {
+    width: 100px;
+  }
+
+  .home-three-content
+  {
+    flex-direction: column;
+  }
+
+  .home-three-content .left-content .part-two {
+    height: 125px;
+    width: 396px;
+  }
+
+  .home-three-content .left-content .part-two img {
+    width: 16px;
+  }
+
+  .home-three-content .left-content .part-five .middle-img img {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .home-three-content .left-content .part-five .middle-img {
+    right: -2px;
+    bottom: -21rem;
+  }
+
+
+  .home-three-content .left-content .part-one,
+  .home-three-content .left-content .part-three,
+  .home-three-content .left-content .part-four,
+  .home-three-content .left-content .part-five {
+    padding-left: 23px;
+  }
+
+  .home-three-content .left-content .part-five .left-to-right img {
+    display: none;
+  }
+
+
+  .home-three-content .right-content img {
+    width: 250px;
+    height: 354px;
+  }
+
+  /* Section 2 */
+
+  .before-after .star-icon-1 {
+    width: 86.77px;
+    height: 87.809px;
+  }
+
+  .before-after .before-after-img {
+    gap: 25px;
+  }
+
+  .before-after .before-after-img .before-26 {
+    width: 210px;
+  }
+
+  .before-after .before-after-img .after-37 {
+    width: 210px;
+  }
+
+  /* Process List */
+  .process-list .process .process-list img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .process-list .logo-w-title .email-3-logo img {
+    width: 203px;
+    height: 100px;
+  }
+
+  /* ------------------ Email-3 Feedback Section Start ------------------ */
+  .feedback-content .feedback-container .feedback-left .pinkbox-left {
+    width: 380px;
+    height: 180px;
+  }
+
+  .feedback-content .feedback-container .feedback-left .pinkbox-right {
+    width: 380px;
+    height: 190px;
+  }
+
+  .feedback-content .feedback-container .feedback-left .pinkbox-left img,
+.feedback-content .feedback-container .feedback-left .pinkbox-right img {
+  width: 55.498px;
+  height: 54.157px;
+}
+
+.feedback-content .feedback-container .feedback-right .client-img-1 {
+  width: 208px;
+  height: 199.465px;
+}
+
+.feedback-content .feedback-container .feedback-right .client-img-2 {
+  width: 199.047px;
+  height: 307px;
+}
+
+.feedback-content .feedback-container .feedback-right .client-img-3 {
+  width: 211.134px;
+  height: 273.248px;
+}
+
+.feedback-content .feedback-container .feedback-right .client-img-4 {
+  width: 198.138px;
+  height: 236.06px;
+}
+
+
+.feedback-content .feedback-container .feedback-right .client-img-5 {
+  width: 211px;
+  height: 222.987px;
+}
+
+.feedback-content .feedback-container .feedback-right .client-img-6 {
+  width: 194.157px;
+  height: 255.416px;
+}
+
+
+.feedback-content .feedback-container .feedback-right .client-img-7 {
+  width: 210.351px;
+  height: 182.885px;
+  margin-right: 0px;
+}
+
+.feedback-content .feedback-container .feedback-right .client-img-8 {
+  width: 207.277px;
+  height: 337px;
+  margin-right: -2rem;
+}
+
+  /* Before After 3 */
+
+  .ba-3 .pink-star-1,
+  .ba-3 .pink-star-2,
+  .ba-3 .pink-star-3,
+  .ba-5 .blue-star-1,
+  .ba-5 .blue-star-2 {
+    display: none;
+  }
 
 }
 
@@ -1100,11 +1516,11 @@
   }
 
   /* ----------------- Email-2 Service Items Start----------------- */
-  .service-items .service-item-list {
-    width: 100%;
+  .service-items .service-item-list .service-list {
+    margin-left: 0 auto;
   }
 
-  .service-items .service-item-list .service-list .blue-icon {
+  .service-items .service-item-list .service-list .blue-icon svg{
     width: 40px;
     height: 40px;
     margin-top: -8px;
@@ -1150,6 +1566,135 @@
     width: 284px;
     height: 147px;
   }
+
+  /* --------------------------------------------------- Email Three Page Start ------------------------------------------- */
+
+  /* Home Section */
+  .hero-banner-three .h-top {
+    font-size: 40px;
+  }
+
+  .hero-banner-three .h-bottom {
+    font-size: 30px;
+  }
+
+  .hero-banner-three .left-star-down {
+    width: 120px;
+  }
+
+  .home-three-content .left-content .part-two {
+    height: 125px;
+    width: 396px;
+  }
+
+  .home-three-content .left-content .part-two img {
+    width: 16px;
+  }
+
+  .home-three-content .left-content .part-five .middle-img img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .home-three-content .left-content .part-one,
+  .home-three-content .left-content .part-three,
+  .home-three-content .left-content .part-four,
+  .home-three-content .left-content .part-five {
+    padding-left: 23px;
+  }
+
+
+  .home-three-content .left-content .part-five .middle-img {
+    position: absolute;
+    right: -100px;
+    bottom: -9rem;
+  }
+
+  .home-three-content .left-content .part-five .left-to-right img {
+    display: none;
+  }
+
+  .home-three-content .left-content .part-five .middle-img {
+    right: -50px;
+    bottom: -3rem;
+  }
+
+
+  .home-three-content .right-content img {
+    width: 300px;
+    height: 454px;
+  }
+
+  /* Section 2 */
+  .before-after .star-icon-1 {
+    width: 106.77px;
+    height: 107.809px;
+  }
+
+  .before-after .before-after-img {
+    gap: 25px;
+  }
+
+  .before-after .before-after-img .before-26 {
+    width: 210px;
+  }
+
+  .before-after .before-after-img .after-37 {
+    width: 210px;
+  }
+
+  /* Process List */
+  .process-list .process .process-list img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .process-list .logo-w-title .email-3-logo img {
+    width: 263px;
+  }
+
+  /* ------------------ Email-3 Feedback Section Start ------------------ */
+  .feedback-content .feedback-container .feedback-left .pinkbox-left {
+    width: 480px;
+    height: 180px;
+  }
+
+  .feedback-content .feedback-container .feedback-left .pinkbox-right {
+    width: 480px;
+    height: 190px;
+  }
+
+  /* Before After 3 */
+
+  .ba-3 .pink-star-1 {
+    top: 5rem;
+    left: 0;
+  }
+
+  .ba-3 .pink-star-2 {
+    top: 15rem;
+    left: 1rem;
+  }
+
+  .ba-3 .pink-star-3 {
+    width: 96.77px;
+    height: 97.809px;
+  }
+
+  /* Before After 5 */
+
+  .ba-5 .blue-star-1 {
+    position: absolute;
+    top: 7rem;
+    right: 0;
+  }
+
+  .ba-5 .blue-star-2 {
+    position: absolute;
+    right: 1rem;
+    bottom: 16rem;
+  }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -1168,18 +1713,18 @@
   }
 
   /* --------------------------------------------------- Email Three Page Start ------------------------------------------- */
-  
-  /* Home Section */
+
 
   .home-three-content .left-content .part-two {
     height: 125px;
     width: 526px;
   }
-  
+
   .home-three-content .left-content .part-five .middle-img img {
     width: 280px;
     height: 280px;
   }
+
   .home-three-content .left-content .part-five .middle-img {
     position: absolute;
     right: -100px;
