@@ -1,743 +1,1169 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    :root {
-        --heading-1: 20px;
-        --heading-2: 20px;
-        --heading-3: 19px;
-        --heading-4: 15px;
-        --heading-5: 15px;
-    }
-
-
-    /* Navbar Logo */
-
-    .navbar img {
-        width: 140.706px;
-        height: 25px;
-    }
-
-    /* Home Banner */
-    .home .hero-banner {
-        height: 156px;
-    }
-
-    .hero-banner .left-icon {
-        width: 60px;
-        height: 60px;
-    }
-
-    .hero-banner .right-icon {
-        width: 60px;
-        height: 60px;
-    }
-
-
-    /* Hero Bottom */
-    .hero-bottom {
-        flex-direction: column;
-        gap: 12px;
-    }
-
-    .hero-left {
-        display: flex;
-        gap: 3px;
-    }
-
-    .hero-bottom .hero-left .arrow {
-        display: none;
-    }
-
-    .hero-bottom .hero-right .hero-left-img img {
-        width: 300px;
-    }
-
-
-    /* Section 2 */
-    .section-two {
-        margin-top: 0px;
-      }
-
-    .top-part .shadow-text,
-    .bottom-part .shadow-text {
-        font-size: 41.625px;
-    }
-
-    .top-part .top-progress  {
-        flex-direction: column;
-    }
-
-
-    .top-part .top-progress img {
-        width: 47px;
-        height: 54px;
-        display: none;
-    }
-
-    .top-part .top-progress .blue-box,
-    .top-part .top-progress .pink-boxx {
-        padding: 10px 20px 10px 20px;
-    }
-
-    /* Section 4 */
-    .section-four {
-        padding-bottom: 136px;
-        position: relative;
-        z-index: 3;
-      }
-      
-
-    .title-four {
-        padding-top: 40px;
-        padding-bottom: 2rem;
-      }
-
-      .boxes .number-plate .num {
-        display: none;
-      }
-      
-    .box-items {
-        min-width: fit-content;
-    }
-
-    /* Color Plate */
-    .color-plate {
-        margin-bottom: 3rem;
-      }
-
-    .color-plate .color-box {
-        height: 180px;
-        width: auto;
-    }
-
-    .color-box .left-plate .plate-content {
-        font-size: 14px;
-      }
-
-    .color-box .left-plate .brand-logo {
-        background-color: #fff;
-        width: 124px;
-        height: 67px;
-    }
-
-    .brand-logo .logo-one {
-        width: 105px;
-        height: 56px;
-    }
-
-    .brand-logo .logo-two {
-        width: 115px;
-        height: 30px;
-    }
-
-    .right-plate img {
-        width: 108px;
-        height: 180px;
-    }
-
-    /* List */
-    .items {
-        flex-direction: column;
-        padding-left: 3rem;
-        gap: 5px;
-        padding-top: 35px;
-        padding-bottom: 16px;
-      }
-
-      .item h5 .note 
-      {
-        font-size: 12px;
-      }
-
-
-    /* Section 4 */
-    .star-one,
-    .star-two,
-    .star-three,
-    .star-four,
-    .star-five {
-        display: none;
-    }
-
-    .star-four {
-        display: none;
-    }
-
-
-    .box-items {
-        width: 300px;
-        padding: 10px 25px;
-    }
-
-    .box-right {
-        width: 68px;
-        right: -2px;
-    }
-
-    .box-two img {
-        width: 60px;
-    }
-
-    .box-three img {
-        width: 82.99px;
-        margin-left: -1rem;
-    }
-
-    /* Color Plate */
-
-    .left-plate {
-        padding: 5px 10px;
-      }
-
-
-    /* Section 5 */
-
-    .section-five-box {
-        width: 300px;
-        height: 220px;
-        padding: 12px;
-    }
-
-    .exc-mark img {
-        width: 13px;
-        display: none;
-      }
-      .top-content {
-        padding: 0px;
-      }
-      
-
-    .top-content img {
-        width: 280.509px;
-        height: auto;
-    }
-
-
-    /* Section 6 */
-    .section-six-content .left-content img {
-        width: 150px;
-        height: auto;
-        margin-left: 0;
-    }
-
-    .section-six-content .right-content {
-        margin-left: -2.2rem;
-      }
-      
-
-    .section-six-content .right-content .highlight {
-        gap: 5px;
-      }
-      
-      .section-six-content .right-content .h-one img,
-      .section-six-content .right-content .h-two img {
-        width: 60px;
-        height: 60px;
-      }
-      
-
-
-    /* Section Seven */
-
-    .section-seven {
-        margin-top: 0px;
-      }
-
-      .section-seven-content {
-        gap: 15px;
-        padding-top: 48px;
-        padding-bottom: 46px;
-      }
-
-    .section-seven-content .content-top {
-        flex-direction: column;
-        gap: 14px;
-      }
-
-    .section-seven-content .content-top .content-left .blue-icon .white-box {
-        height: min-content;
-    }
-
-    .section-seven-content .content-top .content-left .blue-icon img {
-        width: 30px;
-        height: 30px;
-    }
-    .section-seven-content .content-top .content-right img {
-        width: 230.571px;
-    }
-
-
-    /* Section 8 */
-
-    .section-eight-content {
-        height: auto;
-        padding-top: 2.9rem;
-        padding-bottom: 2.9rem;
-      }
-
-      .section-eight-content .left-content {
-        width: 100%;
-        padding: 0 5px;
-      }
-
-    .section-eight .right-img {
-        display: none;
-    }
-
-    .section-eight-content .content-title h1 {
-        font-size: 16px;
-    }
-
-    .section-eight-content .left-content .button img {
-        width: 53.424px;
-        height: 41px;
-    }
-
-    .section-eight-content .left-content .button button {
-        padding: 2px 30px;
-        font-size: 20px;
-    }
-
-    .section-eight-content .left-content h3
-    {
-        font-size: 14px;
-    }
-
-    /* Time */
-    .section-nine {
-        margin-top: 1.5rem;
-      }
-
-    .time-content {
-        column-gap: 10px;
-        margin-bottom: 12px;
-    }
-    .time-content .colon {
-        margin-top: -2rem;
-        width: 3px;
-      }
-
-    .time-content input {
-        font-size: 18px;
-        width: 55px;
-        letter-spacing: 1px;
-        height: 40px;
-    }
-
-    .time-content label {
-        font-size: 12px;
-    }
-
-
-    /* About */
-
-    .about-me {
-        margin-bottom: 26px;
-      }
-
-      .about-content {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 15px;
-        padding-top: 13px;
-      }
-
-    .about-content .my-img {
-        width: 90px;
-        height: 90px;
-    }
-
-    .about-content .details {
-        gap: 5px;
-      }
-
-    .about-content .details .name,
-    .about-content .details .mail {
-        font-size: 12px;
-    }
-
-    .about-content .details img {
-        width:90.87px;
-        height: 40px;
-    }
-
-    .about-content .details .social-icon {
-        gap: 10px;
-      }
-
-    .about-content .details .social-icon svg {
-        height: 20px;
-        width: 20px;
-    }
-
-    .footer .footer-logo {
-        width: 120.254px;
-        height: 30.413px;
-    }
+  :root {
+    --heading-1: 20px;
+    --heading-2: 20px;
+    --heading-3: 19px;
+    --heading-4: 15px;
+    --heading-5: 15px;
+  }
+
+
+  /* Navbar Logo */
+
+  .navbar img {
+    width: 140.706px;
+    height: 25px;
+  }
+
+  /* Home Banner */
+  .home .hero-banner {
+    height: 156px;
+  }
+
+  .hero-banner .left-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .hero-banner .right-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+
+  /* Hero Bottom */
+  .hero-bottom {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .hero-left {
+    display: flex;
+    gap: 3px;
+  }
+
+  .hero-bottom .hero-left .arrow {
+    display: none;
+  }
+
+  .hero-bottom .hero-right .hero-left-img img {
+    width: 300px;
+  }
+
+
+  /* Section 2 */
+  .section-two {
+    margin-top: 0px;
+  }
+
+  .top-part .shadow-text,
+  .bottom-part .shadow-text {
+    font-size: 41.625px;
+  }
+
+  .top-part .top-progress {
+    flex-direction: column;
+  }
+
+
+  .top-part .top-progress img {
+    width: 47px;
+    height: 54px;
+    display: none;
+  }
+
+  .top-part .top-progress .blue-box,
+  .top-part .top-progress .pink-boxx {
+    padding: 10px 20px 10px 20px;
+  }
+
+  /* Section 4 */
+  .section-four {
+    padding-bottom: 136px;
+    position: relative;
+    z-index: 3;
+  }
+
+
+  .title-four {
+    padding-top: 40px;
+    padding-bottom: 2rem;
+  }
+
+  .boxes .number-plate .num {
+    display: none;
+  }
+
+  .box-items {
+    min-width: fit-content;
+  }
+
+  /* Color Plate */
+  .color-plate {
+    margin-bottom: 3rem;
+  }
+
+  .color-plate .color-box {
+    height: 180px;
+    width: auto;
+  }
+
+  .color-box .left-plate .plate-content {
+    font-size: 14px;
+  }
+
+  .color-box .left-plate .brand-logo {
+    background-color: #fff;
+    width: 124px;
+    height: 67px;
+  }
+
+  .brand-logo .logo-one {
+    width: 105px;
+    height: 56px;
+  }
+
+  .brand-logo .logo-two {
+    width: 115px;
+    height: 30px;
+  }
+
+  .right-plate img {
+    width: 108px;
+    height: 180px;
+  }
+
+  /* List */
+  .items {
+    flex-direction: column;
+    padding-left: 3rem;
+    gap: 5px;
+    padding-top: 35px;
+    padding-bottom: 16px;
+  }
+
+  .item h5 .note {
+    font-size: 12px;
+  }
+
+
+  /* Section 4 */
+  .star-one,
+  .star-two,
+  .star-three,
+  .star-four,
+  .star-five {
+    display: none;
+  }
+
+  .star-four {
+    display: none;
+  }
+
+
+  .box-items {
+    width: 300px;
+    padding: 10px 25px;
+  }
+
+  .box-right {
+    width: 68px;
+    right: -2px;
+  }
+
+  .box-two img {
+    width: 60px;
+  }
+
+  .box-three img {
+    width: 82.99px;
+    margin-left: -1rem;
+  }
+
+  /* Color Plate */
+
+  .left-plate {
+    padding: 5px 10px;
+  }
+
+
+  /* Section 5 */
+
+  .section-five-box {
+    width: 300px;
+    height: 220px;
+    padding: 12px;
+  }
+
+  .exc-mark img {
+    width: 13px;
+    display: none;
+  }
+
+  .top-content {
+    padding: 0px;
+  }
+
+
+  .top-content img {
+    width: 280.509px;
+    height: auto;
+  }
+
+
+  /* Section 6 */
+  .section-six-content .left-content img {
+    width: 150px;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .section-six-content .right-content {
+    margin-left: -2.2rem;
+  }
+
+
+  .section-six-content .right-content .highlight {
+    gap: 5px;
+  }
+
+  .section-six-content .right-content .h-one img,
+  .section-six-content .right-content .h-two img {
+    width: 60px;
+    height: 60px;
+  }
+
+
+
+  /* Section Seven */
+
+  .section-seven {
+    margin-top: 0px;
+  }
+
+  .section-seven-content {
+    gap: 15px;
+    padding-top: 48px;
+    padding-bottom: 46px;
+  }
+
+  .section-seven-content .content-top {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .section-seven-content .content-top .content-left .blue-icon .white-box {
+    height: min-content;
+  }
+
+  .section-seven-content .content-top .content-left .blue-icon img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .section-seven-content .content-top .content-right img {
+    width: 230.571px;
+  }
+
+
+  /* Section 8 */
+
+  .section-eight-content {
+    height: auto;
+    padding-top: 2.9rem;
+    padding-bottom: 2.9rem;
+  }
+
+  .section-eight-content .left-content {
+    width: 100%;
+    padding: 0 5px;
+  }
+
+  .section-eight .right-img {
+    display: none;
+  }
+
+  .section-eight-content .content-title h1 {
+    font-size: 16px;
+  }
+
+  .section-eight-content .left-content .button img {
+    width: 53.424px;
+    height: 41px;
+  }
+
+  .section-eight-content .left-content .button button {
+    padding: 2px 30px;
+    font-size: 20px;
+  }
+
+  .section-eight-content .left-content h3 {
+    font-size: 14px;
+  }
+
+  /* Time */
+  .section-nine {
+    margin-top: 1.5rem;
+  }
+
+  .time-content {
+    column-gap: 10px;
+    margin-bottom: 12px;
+  }
+
+  .time-content .colon {
+    margin-top: -2rem;
+    width: 3px;
+  }
+
+  .time-content input {
+    font-size: 18px;
+    width: 55px;
+    letter-spacing: 1px;
+    height: 40px;
+  }
+
+  .time-content label {
+    font-size: 12px;
+  }
+
+
+  /* About */
+
+  .about-me {
+    margin-bottom: 26px;
+  }
+
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 13px;
+  }
+
+  .about-content .my-img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .about-content .details {
+    gap: 5px;
+  }
+
+  .about-content .details .name,
+  .about-content .details .mail {
+    font-size: 12px;
+  }
+
+  .about-content .details img {
+    width: 90.87px;
+    height: 40px;
+  }
+
+  .about-content .details .social-icon {
+    gap: 10px;
+  }
+
+  .about-content .details .social-icon svg {
+    height: 20px;
+    width: 20px;
+  }
+
+  .footer .footer-logo {
+    width: 120.254px;
+    height: 30.413px;
+  }
+
+  /* --------------------------------------------------- Email-2 Page Start ------------------------------------------- */
+
+  /* Email-2 Home Section */
+
+  .hero-banner .left-star {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    width: 48px;
+    height: 48px;
+  }
+  
+  .hero-banner .left-star-down {
+    width: 26px;
+    height: 26px;
+  }
+  
+  .hero-banner .right-star {
+    width: 86.77px;
+    height: 87.809px;
+  }
+
+  .hero-two-bottom .hero-two-right {
+    margin-top: 1.5rem;
+  }
+
+  .hero-banner .hero-heading h2 {
+    font-size: 18px;
+  }
+
+  .hero-banner .hero-heading h1 {
+    padding-top: 5px;
+    font-size: 22px;
+  }
+  .hero-two-bottom {
+    flex-direction: column;
+    
+  }
+  .hero-two-bottom .hero-two-left {
+    order: 1;
+  }
+
+  .hero-two-bottom .hero-two-right img {
+    width: 221.726px;
+    height: 270.262px;
+  }
+
+  /* ----------------- Email-2 Tips Section Start----------------- */
+  .tips {
+    flex-direction: column;
+    gap: 25px;
+    height: auto;
+    padding-top: 3.5rem;
+    padding-bottom: 5rem;
+  }
+
+  .tips .tips-left img {
+    width: 320px;
+    height: 385px;
+  }
+
+  .tips .tips-right .tips-item {
+    gap: 8px;
+  }
+
+  /* ----------------- Email-2 Service Section Start----------------- */
+  .service-content {
+    gap: 15px;
+    flex-direction: column;
+  }
+
+  .service-content .content-left {
+    order: 1;
+  }
+
+  .service-content .content-left .left-icon {
+   display: none;
+  }
+
+  .service-content .button .service-btn {
+    padding: 14px 50px;
+    margin-top: 12px;
+    font-size: 16px;
+  }
+
+  .service-content .content-right .video-link img {
+    width: 200.731px;
+    height: 361px;
+  }
+
+  .service-content .content-right .video-icon img {
+    width: 48px;
+    height: 48px;
+  }
+
+  /* ----------------- Email-2 Service Items Start----------------- */
+  .service-items .service-item-list {
+    width: 100%;
+  }
+
+  .service-items .service-item-list .service-list .blue-icon {
+    width: 28px;
+    height: 28px;
+    margin-top: -8px;
+  }
+  .service-items .service-img img {
+    width: 382px;
+    height: 253px;
+  }
+  
+
+  /* ----------------- Email-2 Pink BOx Start----------------- */
+  .pink-box {
+    width: 390px;
+    height: 151px;
+  }
+
+  /* ----------------- Email-2 Review Section Start----------------- */
+  .review-section .review-content {
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .review-section .review-content .review-left-side h4,
+  .review-section .review-content .review-right-side h4 {
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+
+  .review-section .review-content .review-left-side img {
+    width: 323px;
+    height: 310px;
+  }
+
+  .review-section .review-content .review-left-side .blue-btn button,
+  .review-section .review-content .review-right-side .blue-btn button {
+    width: 160px;
+    padding: 11px 28px;
+    font-size: 16px;
+  }
+
+  .review-section .review-content .review-right-side img {
+    width: 330px;
+    height: 270px;
+  }
+
+  .review-section .brand-logo-two img {
+    margin-top: 34px;
+    width: 194px;
+    height: 97px;
+  }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (min-width: 601px) and (max-width: 812px) {
-    :root {
-        --heading-1: 24px;
-        --heading-2: 20px;
-        --heading-3: 19px;
-        --heading-4: 15px;
-        --heading-5: 18px;
-    }
+  :root {
+    --heading-1: 24px;
+    --heading-2: 20px;
+    --heading-3: 19px;
+    --heading-4: 15px;
+    --heading-5: 18px;
+  }
 
 
-    /* Navbar Logo */
+  /* Navbar Logo */
 
-    .navbar img {
-        width: 200.706px;
-        height: 35px;
-    }
+  .navbar img {
+    width: 200.706px;
+    height: 35px;
+  }
 
-    /* Home Banner */
-    .home .hero-banner {
-        height: 206px;
-    }
+  /* Home Banner */
+  .home .hero-banner {
+    height: 206px;
+  }
 
-    .hero-banner .left-icon {
-        width: 90px;
-        height: 90px;
-    }
+  .hero-banner .left-icon {
+    width: 90px;
+    height: 90px;
+  }
 
-    .hero-banner .right-icon {
-        width: 90px;
-        height: 90px;
-    }
-
-
-    /* Hero Bottom */
-    .hero-bottom {
-        flex-direction: column;
-        gap: 16px;
-        width: 100%;
-    }
-
-    .hero-left {
-        display: flex;
-        gap: 12px;
-    }
-
-    .hero-bottom .hero-left .arrow {
-        display: none;
-    }
-
-    /* Section 4 */
-    .box-items {
-        width: 550px;
-    }
-
-    .color-plate .color-box {
-        height: 281px;
-        width: 550px;
-    }
-
-    .color-box .left-plate .brand-logo {
-        background-color: #fff;
-        width: 194px;
-        height: 97px;
-    }
-
-    .brand-logo .logo-one {
-        width: 155px;
-        height: 56px;
-    }
-
-    .brand-logo .logo-two {
-        width: 175px;
-        height: 30px;
-    }
-
-    .right-plate img {
-        width: 208px;
-        height: 294px;
-    }
-
-    /* Section 4 */
-    .star-one {
-        width: 86.77px;
-        height: 87.809px;
-    }
-
-    .star-four {
-        width: 66.77px;
-        height: 67.809px;
-    }
-
-    .box-items {
-        width: 480px;
-    }
-
-    .box-right {
-        width: 128px;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-    }
-
-    .box-two img {
-        width: 101px;
-    }
-
-    .box-three img {
-        width: 172.99px;
-        margin-left: -3rem;
-    }
+  .hero-banner .right-icon {
+    width: 90px;
+    height: 90px;
+  }
 
 
+  /* Hero Bottom */
+  .hero-bottom {
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+  }
 
-    /* Section 5 */
+  .hero-left {
+    display: flex;
+    gap: 12px;
+  }
 
-    .section-five-box {
-        width: 520px;
-        height: 280px;
-    }
+  .hero-bottom .hero-left .arrow {
+    display: none;
+  }
 
-    .top-content img {
-        width: 400.509px;
-        height: auto;
-    }
+  /* Section 4 */
+  .box-items {
+    width: 550px;
+  }
 
+  .color-plate .color-box {
+    height: 281px;
+    width: 550px;
+  }
 
-    /* Section 6 */
-    .section-six-content .left-content img {
-        width: 279.912px;
-        height: auto;
-        margin-left: 0;
-    }
+  .color-box .left-plate .brand-logo {
+    background-color: #fff;
+    width: 194px;
+    height: 97px;
+  }
 
+  .brand-logo .logo-one {
+    width: 155px;
+    height: 56px;
+  }
 
-    /* Section Seven */
+  .brand-logo .logo-two {
+    width: 175px;
+    height: 30px;
+  }
 
-    .section-seven-content .content-top .content-left .blue-icon .white-box {
-        height: 130px;
-    }
+  .right-plate img {
+    width: 208px;
+    height: 294px;
+  }
 
-    .section-seven-content .content-top .content-left .blue-icon img {
-        width: 30px;
-        height: 30px;
-    }
+  /* Section 4 */
+  .star-one {
+    width: 86.77px;
+    height: 87.809px;
+  }
 
-    .section-seven-content .content-top {
-        gap: 14px;
-    }
+  .star-four {
+    width: 66.77px;
+    height: 67.809px;
+  }
 
-    .section-seven-content .content-top .content-right img {
-        width: 230.571px;
-    }
+  .box-items {
+    width: 480px;
+  }
 
+  .box-right {
+    width: 128px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
 
-    /* Section 8 */
+  .box-two img {
+    width: 101px;
+  }
 
-    .section-eight .right-img {
-        display: none;
-    }
-
-    .section-eight-content .content-title h1 {
-        font-size: 24px;
-    }
-
-    .section-eight-content .left-content .button img {
-        width: 53.424px;
-        height: 51px;
-    }
-
-    .section-eight-content .left-content .button button {
-        padding: 10px 40px;
-        font-size: 24px;
-    }
-
-    /* Time */
-    .time-content {
-        column-gap: 20px;
-    }
-
-    .time-content input {
-        font-size: 32px;
-        width: 90px;
-        height: 50px;
-    }
-
-    .time-content label {
-        font-size: 14px;
-    }
-
-
-    /* About */
-
-    .about-content .my-img {
-        width: 201px;
-        height: 201px;
-    }
-
-    .about-content .details .name,
-    .about-content .details .mail {
-        font-size: 22px;
-    }
-
-    .about-content .details img {
-        width: 210.87px;
-        height: 90px;
-    }
+  .box-three img {
+    width: 172.99px;
+    margin-left: -3rem;
+  }
 
 
-    .about-content .details .social-icon svg {
-        height: 35px;
-        width: 35px;
-    }
 
-    .footer .footer-logo {
-        width: 194.254px;
-        height: 38.413px;
-    }
+  /* Section 5 */
+
+  .section-five-box {
+    width: 520px;
+    height: 280px;
+  }
+
+  .top-content img {
+    width: 400.509px;
+    height: auto;
+  }
+
+
+  /* Section 6 */
+  .section-six-content .left-content img {
+    width: 279.912px;
+    height: auto;
+    margin-left: 0;
+  }
+
+
+  /* Section Seven */
+
+  .section-seven-content .content-top .content-left .blue-icon .white-box {
+    height: 130px;
+  }
+
+  .section-seven-content .content-top .content-left .blue-icon img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .section-seven-content .content-top {
+    gap: 14px;
+  }
+
+  .section-seven-content .content-top .content-right img {
+    width: 230.571px;
+  }
+
+
+  /* Section 8 */
+
+  .section-eight-content {
+    height: auto;
+    padding-top: 3.9rem;
+    padding-bottom: 3.9rem;
+  }
+
+  .section-eight-content .left-content {
+    width: 100%;
+    padding: 0 5px;
+  }
+
+
+  .section-eight .right-img {
+    display: none;
+  }
+
+  .section-eight-content .content-title h1 {
+    font-size: 24px;
+  }
+
+  .section-eight-content .left-content .button img {
+    width: 53.424px;
+    height: 51px;
+  }
+
+  .section-eight-content .left-content .button button {
+    padding: 10px 40px;
+    font-size: 24px;
+  }
+
+  /* Time */
+  .time-content {
+    column-gap: 20px;
+  }
+
+  .time-content input {
+    font-size: 32px;
+    width: 90px;
+    height: 50px;
+  }
+
+  .time-content label {
+    font-size: 14px;
+  }
+
+
+  /* About */
+
+  .about-me {
+    margin-bottom: 26px;
+  }
+
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 13px;
+  }
+
+  .about-content .my-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .about-content .details {
+    gap: 5px;
+  }
+
+  .about-content .details .name,
+  .about-content .details .mail {
+    font-size: 14px;
+  }
+
+  .about-content .details img {
+    width: 90.87px;
+    height: 40px;
+  }
+
+  .about-content .details .social-icon {
+    gap: 10px;
+  }
+
+  .about-content .details .social-icon svg {
+    height: 23px;
+    width: 23px;
+  }
+
+  .footer .footer-logo {
+    width: 170.254px;
+    height: 40.413px;
+  }
+
+  /* --------------------------------------------------- Email-2 Page Start ------------------------------------------- */
+
+  /* Email-2 Home Section */
+  .hero-banner .right-star {
+    width: 106.77px;
+    height: 107.809px;
+  }
+
+  .hero-two-bottom .hero-two-right {
+    margin-top: 3.5rem;
+    z-index: 2;
+  }
+
+  .hero-banner .hero-heading h2 {
+    font-size: 24px;
+  }
+
+  .hero-banner .hero-heading h1 {
+    padding-top: 15px;
+    font-size: 32px;
+  }
+
+
+  .hero-two-bottom .hero-two-right img {
+    width: 221.726px;
+    height: 270.262px;
+  }
+
+  /* ----------------- Email-2 Tips Section Start----------------- */
+  .tips {
+    flex-direction: column;
+    gap: 25px;
+    height: auto;
+    padding-top: 3.5rem;
+    padding-bottom: 5rem;
+  }
+
+  .tips .tips-left img {
+    width: 320px;
+    height: 385px;
+  }
+
+  .tips .tips-right .tips-item {
+    gap: 8px;
+  }
+
+  /* ----------------- Email-2 Service Section Start----------------- */
+  .service-content {
+    gap: 15px;
+  }
+
+  .service-content .content-left .left-icon {
+    width: 120px;
+  }
+
+  .service-content .button .service-btn {
+    padding: 14px 50px;
+    margin-top: 12px;
+    font-size: 16px;
+  }
+
+  .service-content .content-right .video-link img {
+    width: 200.731px;
+    height: 361px;
+  }
+
+  .service-content .content-right .video-icon img {
+    width: 48px;
+    height: 48px;
+  }
+
+  /* ----------------- Email-2 Service Items Start----------------- */
+  .service-items .service-item-list {
+    width: 100%;
+  }
+
+  .service-items .service-item-list .service-list .blue-icon {
+    width: 40px;
+    height: 40px;
+    margin-top: -8px;
+  }
+
+  /* ----------------- Email-2 Pink BOx Start----------------- */
+  .pink-box {
+    width: 580px;
+    height: 181px;
+  }
+
+  /* ----------------- Email-2 Review Section Start----------------- */
+  .review-section .review-content {
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .review-section .review-content .review-left-side h4,
+  .review-section .review-content .review-right-side h4 {
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+
+  .review-section .review-content .review-left-side img {
+    width: 323px;
+    height: 310px;
+  }
+
+  .review-section .review-content .review-left-side .blue-btn button,
+  .review-section .review-content .review-right-side .blue-btn button {
+    width: 210px;
+    padding: 16px 30px;
+    font-size: 20px;
+  }
+
+  .review-section .review-content .review-right-side img {
+    width: 330px;
+    height: 270px;
+  }
+
+  .review-section .brand-logo-two img {
+    margin-top: 34px;
+    width: 204px;
+    height: 107px;
+  }
+
+
 }
 
 
 /* Medium devices (landscape tablets, 812px and up) */
 @media (min-width: 812px) and (max-width: 1024px) {
-    :root {
-        --heading-1: 34px;
-        --heading-2: 28px;
-        --heading-3: 25px;
-        --heading-4: 22px;
-        --heading-5: 20px;
-    }
+  :root {
+    --heading-1: 34px;
+    --heading-2: 28px;
+    --heading-3: 25px;
+    --heading-4: 22px;
+    --heading-5: 20px;
+  }
 
-    /* Navbar Logo */
+  /* Navbar Logo */
 
-    .navbar img {
-        width: 200.706px;
-        height: 35px;
-    }
+  .navbar img {
+    width: 200.706px;
+    height: 35px;
+  }
 
-    /* Home Section Start */
+  /* Home Section Start */
 
-    .hero-banner .left-icon {
-        width: 150px;
-        height: 150px;
-    }
+  .hero-banner .left-icon {
+    width: 150px;
+    height: 150px;
+  }
 
-    .hero-banner .right-icon {
-        width: 140px;
-        height: 140px;
-    }
+  .hero-banner .right-icon {
+    width: 140px;
+    height: 140px;
+  }
 
-    .hero-bottom .hero-right .hero-left-img img {
-        width: 350.048px;
-    }
+  .hero-bottom .hero-right .hero-left-img img {
+    width: 350.048px;
+  }
 
-    .hero-bottom .hero-left .arrow {
-        width: 170.106px;
-        margin-top: -2rem;
-    }
+  .hero-bottom .hero-left .arrow {
+    width: 170.106px;
+    margin-top: -2rem;
+  }
 
-    /* Home Section end */
+  /* Home Section end */
 
-    .star-one {
-        width: 136.77px;
-        height: 137.809px;
-    }
+  .star-one {
+    width: 136.77px;
+    height: 137.809px;
+  }
 
-    .star-four {
-        width: 116.77px;
-        height: 117.809px;
-    }
+  .star-four {
+    width: 116.77px;
+    height: 117.809px;
+  }
 
-    .section-five-box {
-        width: 607px;
-        height: 302px;
-    }
-
-
-    /* Section Five Start */
-    .section-six-content .left-content img {
-        margin-left: 0rem;
-    }
+  .section-five-box {
+    width: 607px;
+    height: 302px;
+  }
 
 
-
-    /* Section Seven */
-
-    .section-seven-content .content-top {
-        gap: 24px;
-    }
-
-    .section-seven-content .content-top .content-right img {
-        width: 290.571px;
-    }
-
-    .top-content img {
-        width: 466.509px;
-        height: 200px;
-    }
-
-    /* Section 8 */
-
-    .section-eight .right-img {
-        width: 418.02px;
-        height: 833px;
-    }
-
-    .border {
-        width: 100%;
-        margin: 0 auto;
-        height: 1px;
-        background: #E0E0E0;
-    }
-
-    .time-content input {
-        font-size: 48px;
-        width: 120px;
-        height: 70px;
-    }
-
-    .time-content label {
-        font-size: 16px;
-    }
-
-    .about-content .my-img {
-        width: 201px;
-        height: 201px;
-    }
-
-    .about-content .details .name,
-    .about-content .details .mail {
-        font-size: 22px;
-    }
-
-    .about-content .details img {
-        width: 210.87px;
-        height: 90px;
-    }
+  /* Section Five Start */
+  .section-six-content .left-content img {
+    margin-left: 0rem;
+  }
 
 
-    .about-content .details .social-icon svg {
-        height: 35px;
-        width: 35px;
-    }
 
-    .footer .footer-logo {
-        width: 194.254px;
-        height: 38.413px;
-    }
+  /* Section Seven */
+
+  .section-seven-content .content-top {
+    gap: 24px;
+  }
+
+  .section-seven-content .content-top .content-right img {
+    width: 290.571px;
+  }
+
+  .top-content img {
+    width: 466.509px;
+    height: 200px;
+  }
+
+  /* Section 8 */
+
+  .section-eight .right-img {
+    width: 418.02px;
+    height: 833px;
+  }
+
+  .border {
+    width: 100%;
+    margin: 0 auto;
+    height: 1px;
+    background: #E0E0E0;
+  }
+
+  .time-content input {
+    font-size: 48px;
+    width: 120px;
+    height: 70px;
+  }
+
+  .time-content label {
+    font-size: 16px;
+  }
+
+  .about-content .my-img {
+    width: 201px;
+    height: 201px;
+  }
+
+  .about-content .details .name,
+  .about-content .details .mail {
+    font-size: 22px;
+  }
+
+  .about-content .details img {
+    width: 210.87px;
+    height: 90px;
+  }
+
+
+  .about-content .details .social-icon svg {
+    height: 35px;
+    width: 35px;
+  }
+
+  .footer .footer-logo {
+    width: 194.254px;
+    height: 38.413px;
+  }
+
+
+  /* --------------------------------------------------- Email-2 Page Start ------------------------------------------- */
+
+  /* Email-2 Home Section */
+  .hero-banner .right-star {
+
+    width: 136.77px;
+    height: 137.809px;
+  }
+
+  .hero-banner .hero-heading h2 {
+    font-size: 30px;
+  }
+
+  .hero-banner .hero-heading h1 {
+    padding-top: 15px;
+    font-size: 46px;
+  }
+
+  .hero-two-bottom .hero-two-right img {
+    width: 331.726px;
+    height: 400.262px;
+  }
+
+  /* ----------------- Email-2 Tips Section Start----------------- */
+  .tips {
+    gap: 25px;
+    height: auto;
+    padding-top: 3.5rem;
+    padding-bottom: 5rem;
+  }
+
+  .tips .tips-left img {
+    width: 320px;
+    height: 435px;
+  }
+
+  .tips .tips-right .tips-item {
+    gap: 8px;
+  }
+
+  /* ----------------- Email-2 Service Section Start----------------- */
+  .service-content {
+    gap: 15px;
+  }
+
+  .service-content .button .service-btn {
+    padding: 18px 50px;
+    margin-top: 12px;
+    font-size: 24px;
+  }
+
+  .service-content .content-right .video-link img {
+    width: 300.731px;
+    height: 561px;
+  }
+
+  .service-content .content-right .video-icon img {
+    width: 68px;
+    height: 68px;
+  }
+
+  /* ----------------- Email-2 Service Items Start----------------- */
+  .service-items .service-item-list {
+    width: 100%;
+  }
+
+  .service-items .service-item-list .service-list .blue-icon {
+    width: 40px;
+    height: 40px;
+    margin-top: -8px;
+  }
+
+  /* ----------------- Email-2 Pink BOx Start----------------- */
+  .pink-box {
+    width: 780px;
+    height: 181px;
+  }
+
+  /* ----------------- Email-2 Review Section Start----------------- */
+  .review-section .review-content {
+    gap: 30px;
+  }
+
+  .review-section .review-content .review-left-side h4,
+  .review-section .review-content .review-right-side h4 {
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+
+  .review-section .review-content .review-left-side img {
+    width: 323px;
+    height: 310px;
+  }
+
+  .review-section .review-content .review-left-side .blue-btn button,
+  .review-section .review-content .review-right-side .blue-btn button {
+    width: 210px;
+    padding: 16px 30px;
+    font-size: 20px;
+  }
+
+  .review-section .review-content .review-right-side img {
+    width: 330px;
+    height: 270px;
+  }
+
+
+  .review-section .brand-logo-two img {
+    margin-top: 34px;
+    width: 284px;
+    height: 147px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media (min-width: 1024px) and (max-width: 1439px) {
-    :root {
-        --heading-1: 45px;
-        --heading-2: 35px;
-        --heading-3: 32px;
-        --heading-4: 26px;
-        --heading-5: 24px;
-    }
+  :root {
+    --heading-1: 45px;
+    --heading-2: 35px;
+    --heading-3: 32px;
+    --heading-4: 26px;
+    --heading-5: 24px;
+  }
 
-    /* Home Section */
-    .hero-bottom .hero-right .hero-left-img img {
-        width: 525.048px;
-    }
+  /* Home Section */
+  .hero-bottom .hero-right .hero-left-img img {
+    width: 525.048px;
+  }
 }
