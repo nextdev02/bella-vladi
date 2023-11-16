@@ -1166,4 +1166,28 @@
   .hero-bottom .hero-right .hero-left-img img {
     width: 525.048px;
   }
+
+  /* --------------------------------------------------- Email Three Page Start ------------------------------------------- */
+  
+  /* Home Section */
+
+  .home-three-content .left-content .part-two {
+    height: 125px;
+    width: 526px;
+  }
+  
+  .home-three-content .left-content .part-five .middle-img img {
+    width: 280px;
+    height: 280px;
+  }
+  .home-three-content .left-content .part-five .middle-img {
+    position: absolute;
+    right: -100px;
+    bottom: -9rem;
+  }
+
+  .home-three-content .right-content img {
+    width: 400px;
+    height: 594px;
+  }
 }
