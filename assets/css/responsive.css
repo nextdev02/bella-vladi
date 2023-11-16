@@ -1,11 +1,11 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     :root {
-        --heading-1: 18px;
+        --heading-1: 20px;
         --heading-2: 20px;
         --heading-3: 19px;
-        --heading-4: 12px;
-        --heading-5: 13px;
+        --heading-4: 15px;
+        --heading-5: 15px;
     }
 
 
@@ -53,14 +53,24 @@
 
 
     /* Section 2 */
+    .section-two {
+        margin-top: 0px;
+      }
+
     .top-part .shadow-text,
     .bottom-part .shadow-text {
-        font-size: 49.625px;
+        font-size: 41.625px;
     }
+
+    .top-part .top-progress  {
+        flex-direction: column;
+    }
+
 
     .top-part .top-progress img {
         width: 47px;
         height: 54px;
+        display: none;
     }
 
     .top-part .top-progress .blue-box,
@@ -69,14 +79,39 @@
     }
 
     /* Section 4 */
+    .section-four {
+        padding-bottom: 136px;
+        position: relative;
+        z-index: 3;
+      }
+      
+
+    .title-four {
+        padding-top: 40px;
+        padding-bottom: 2rem;
+      }
+
+      .boxes .number-plate .num {
+        display: none;
+      }
+      
     .box-items {
-        width: 300px;
+        min-width: fit-content;
     }
+
+    /* Color Plate */
+    .color-plate {
+        margin-bottom: 3rem;
+      }
 
     .color-plate .color-box {
         height: 180px;
-        width: 300px;
+        width: auto;
     }
+
+    .color-box .left-plate .plate-content {
+        font-size: 14px;
+      }
 
     .color-box .left-plate .brand-logo {
         background-color: #fff;
@@ -98,6 +133,21 @@
         width: 108px;
         height: 180px;
     }
+
+    /* List */
+    .items {
+        flex-direction: column;
+        padding-left: 3rem;
+        gap: 5px;
+        padding-top: 35px;
+        padding-bottom: 16px;
+      }
+
+      .item h5 .note 
+      {
+        font-size: 12px;
+      }
+
 
     /* Section 4 */
     .star-one,
@@ -132,6 +182,11 @@
         margin-left: -1rem;
     }
 
+    /* Color Plate */
+
+    .left-plate {
+        padding: 5px 10px;
+      }
 
 
     /* Section 5 */
@@ -139,10 +194,15 @@
     .section-five-box {
         width: 300px;
         height: 220px;
+        padding: 12px;
     }
 
     .exc-mark img {
         width: 13px;
+        display: none;
+      }
+      .top-content {
+        padding: 0px;
       }
       
 
@@ -177,16 +237,24 @@
 
 
     /* Section Seven */
+
+    .section-seven {
+        margin-top: 0px;
+      }
+
+      .section-seven-content {
+        gap: 15px;
+        padding-top: 48px;
+        padding-bottom: 46px;
+      }
+
     .section-seven-content .content-top {
-        display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
         gap: 14px;
       }
 
     .section-seven-content .content-top .content-left .blue-icon .white-box {
-        height: 130px;
+        height: min-content;
     }
 
     .section-seven-content .content-top .content-left .blue-icon img {
@@ -199,6 +267,17 @@
 
 
     /* Section 8 */
+
+    .section-eight-content {
+        height: auto;
+        padding-top: 2.9rem;
+        padding-bottom: 2.9rem;
+      }
+
+      .section-eight-content .left-content {
+        width: 100%;
+        padding: 0 5px;
+      }
 
     .section-eight .right-img {
         display: none;
@@ -218,9 +297,19 @@
         font-size: 20px;
     }
 
+    .section-eight-content .left-content h3
+    {
+        font-size: 14px;
+    }
+
     /* Time */
+    .section-nine {
+        margin-top: 1.5rem;
+      }
+
     .time-content {
         column-gap: 10px;
+        margin-bottom: 12px;
     }
     .time-content .colon {
         margin-top: -2rem;
@@ -228,10 +317,10 @@
       }
 
     .time-content input {
-        font-size: 14px;
-        width: 40px;
+        font-size: 18px;
+        width: 55px;
         letter-spacing: 1px;
-        height: 30px;
+        height: 40px;
     }
 
     .time-content label {
@@ -241,10 +330,26 @@
 
     /* About */
 
+    .about-me {
+        margin-bottom: 26px;
+      }
+
+      .about-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding-top: 13px;
+      }
+
     .about-content .my-img {
-        width: 50px;
-        height: 50px;
+        width: 90px;
+        height: 90px;
     }
+
+    .about-content .details {
+        gap: 5px;
+      }
 
     .about-content .details .name,
     .about-content .details .mail {
@@ -256,15 +361,18 @@
         height: 40px;
     }
 
+    .about-content .details .social-icon {
+        gap: 10px;
+      }
 
     .about-content .details .social-icon svg {
-        height: 25px;
-        width: 25px;
+        height: 20px;
+        width: 20px;
     }
 
     .footer .footer-logo {
-        width: 140.254px;
-        height: 32.413px;
+        width: 120.254px;
+        height: 30.413px;
     }
 }
 
