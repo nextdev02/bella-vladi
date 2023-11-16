@@ -1343,8 +1343,7 @@ img {
 }
 
 .before-after .before-after-img .before-26,
-.before-after .before-after-img .after-37
-{
+.before-after .before-after-img .after-37 {
   width: 249.539px;
   height: 628px;
 
@@ -1574,21 +1573,18 @@ img {
   position: relative;
 }
 
-.ba-3 .pink-star-1
-{
+.ba-3 .pink-star-1 {
   position: absolute;
   top: 5rem;
 }
 
-.ba-3 .pink-star-2
-{
+.ba-3 .pink-star-2 {
   position: absolute;
   top: 15rem;
   left: 16rem;
 }
 
-.ba-3 .pink-star-3
-{
+.ba-3 .pink-star-3 {
   width: 196.77px;
   height: 197.809px;
   position: absolute;
@@ -1625,18 +1621,14 @@ img {
   gap: 10px;
 }
 
-.ba-5 .blue-star-1
-{
+.ba-5 .blue-star-1 {
   position: absolute;
   top: 7rem;
   right: 7rem;
 }
 
-.ba-5 .blue-star-2
-{
+.ba-5 .blue-star-2 {
   position: absolute;
   right: 9rem;
   bottom: 16rem;
 }
-
-
