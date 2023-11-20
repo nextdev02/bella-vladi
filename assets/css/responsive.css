@@ -51,10 +51,14 @@
   .hero-bottom .hero-left .hero-content {
     font-size: 10px;
   }
+  .hero-bottom .hero-left .space{
+    padding-top: 0.2rem;
+  }
+
 
   .hero-bottom .hero-left .arrow {
     width: 80.106px;
-    margin-top: -1rem;
+    margin-top: -1.8rem;
     margin-left: 6rem;
   }
 
@@ -353,8 +357,8 @@
 
   .section-eight .right-img {
     background-size: cover;
-    width: 118.02px;
-    height: 233px;
+    width: 188.02px;
+    height: 293px;
     bottom: 0.6rem;
     right: 0;
     overflow: hidden;
@@ -923,9 +927,13 @@
     font-size: 15px;
   }
 
+  .hero-bottom .hero-left .space{
+    padding-top: 0.2rem;
+  }
+
   .hero-bottom .hero-left .arrow {
     width: 110px;
-    margin-top: -1rem;
+    margin-top: -2rem;
     margin-left: 8rem;
   }
 
@@ -1211,9 +1219,9 @@
 
   .section-eight .right-img {
     background-size: cover;
-    width: 178.02px;
-    height: 343px;
-    bottom: 0.6rem;
+    width: 238.02px;
+    height: 363px;
+    bottom: 0.8rem;
     right: 0;
     overflow: hidden;
   }
@@ -1698,12 +1706,50 @@
     height: 200px;
   }
 
-  /* Section 8 */
+    /* -----------------Section Eight Start----------------- */
+
+    .section-eight-content {
+      margin-top: 1rem;
+      height: auto;
+      padding-top: 2.5rem;
+      padding-bottom: 2.5rem;
+    }
+  
 
   .section-eight .right-img {
-    width: 418.02px;
-    height: 833px;
+    background-size: cover;
+    width: 238.02px;
+    height: 393px;
+    bottom: 1.1rem;
+    right: 0;
+    overflow: hidden;
   }
+
+  .section-eight-content .content-title h1 {
+    font-size: 28px;
+  }
+
+  .section-eight-content .left-content .button {
+
+    margin-top: -1.8rem;
+  }
+
+  .section-eight-content .left-content .title {
+
+    font-size: 18px;
+  }
+
+  .section-eight-content .left-content .button img {
+    width: 142.424px;
+    height: 51px;
+  }
+
+  .section-eight-content .left-content .button button {
+    padding: 10px 30px;
+    font-size: 20px;
+    margin-top: 2rem;
+  }
+
 
   .border {
     width: 100%;

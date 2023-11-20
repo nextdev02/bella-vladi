@@ -184,10 +184,15 @@ img {
 
 .hero-bottom .hero-left .arrow {
   position: absolute;
-  margin-left: 10rem;
+  margin-left: 12rem;
   margin-top: -3rem;
   width: 226.106px;
 }
+
+.hero-bottom .hero-left .space{
+  padding-top: 1.5rem;
+}
+
 
 .hero-bottom .hero-left .hero-content {
   font-size: var(--heading-5);
@@ -655,11 +660,12 @@ img {
 .section-eight .right-img {
   background: url(/assets/images/email-one/Section-eight-img.png);
   background-repeat: no-repeat;
+  background-size: cover;
   width: 498.02px;
   height: 833px;
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 1.5rem;
 }
 
 
