@@ -51,7 +51,8 @@
   .hero-bottom .hero-left .hero-content {
     font-size: 10px;
   }
-  .hero-bottom .hero-left .space{
+
+  .hero-bottom .hero-left .space {
     padding-top: 0.2rem;
   }
 
@@ -395,7 +396,7 @@
     font-size: 14px;
   }
 
-/* -----------------Section Nine Start----------------- */
+  /* -----------------Section Nine Start----------------- */
 
   .section-nine {
     margin-top: 1.2rem;
@@ -480,7 +481,7 @@
 
   /* --------------------------------------------------- Email-2 Page Start ------------------------------------------- */
 
-/* ----------------- Email-2 Home Start----------------- */
+  /* ----------------- Email-2 Home Start----------------- */
 
   .hero-banner .left-star {
     position: absolute;
@@ -519,8 +520,7 @@
     gap: 0px;
   }
 
-  .hero-two-bottom .hero-two-left h5
-  {
+  .hero-two-bottom .hero-two-left h5 {
     font-size: 8px;
     padding-bottom: 0px;
   }
@@ -581,7 +581,7 @@
 
   /* ----------------- Email-2 Service Items Start----------------- */
 
-  .service-items  {
+  .service-items {
     margin-top: 18px;
     margin-bottom: 23px;
   }
@@ -674,31 +674,31 @@
     width: 70px;
   }
 
-  .home-three-content {
-    flex-direction: column;
+  .home-three-content .left-content {
+    gap: 5px;
   }
 
   .home-three-content .left-content .part-two {
-    height: 100px;
-    width: 337px;
+    height: 60px;
+    width: 195px;
   }
 
   .home-three-content .left-content .part-two h5 {
-    padding-left: 25px;
+    padding-left: 15px;
   }
 
   .home-three-content .left-content .part-two img {
-    width: 12px;
+    width: 7px;
   }
 
   .home-three-content .left-content .part-five .middle-img img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: auto;
   }
 
   .home-three-content .left-content .part-five .middle-img {
-    right: -2px;
-    bottom: -21rem;
+    right: -54px;
+    bottom: 0rem;
   }
 
 
@@ -706,25 +706,54 @@
   .home-three-content .left-content .part-three,
   .home-three-content .left-content .part-four,
   .home-three-content .left-content .part-five {
-    padding-left: 23px;
+    padding-left: 3px;
   }
 
   .home-three-content .left-content .part-five .left-to-right img {
-    display: none;
+    width: 62px;
+    height: auto;
+    margin-left: 6rem;
+    margin-top: -1.5rem;
   }
 
 
   .home-three-content .right-content img {
-    width: 250px;
-    height: 354px;
+    width: 150px;
+    height: auto;
   }
 
   /* Section 2 */
-  .before-after .cross-icon-1,
-  .before-after .cross-icon-2,
-  .before-after .star-icon-1 {
-    display: none;
+
+  .section-two .before-after {
+    padding: 45px 0;
+    gap: 5px;
   }
+
+  .before-after .cross-icon-1 {
+    position: absolute;
+    top: 9rem;
+    left: 1rem;
+    width: 28.255px;
+    height: auto;
+  }
+
+  .before-after .cross-icon-2 {
+    position: absolute;
+    top: 25rem;
+    left: 0rem;
+    width: 35.287px;
+    height: auto;
+  }
+
+  .before-after .star-icon-1 {
+    position: absolute;
+    top: 25rem;
+    right: 0;
+    width: 46.77px;
+    height: auto;
+    z-index: 1;
+  }
+
 
   .before-after .before-after-img {
     gap: 25px;
@@ -738,13 +767,25 @@
   .before-after .before-after-img .after-37 {
     width: 150px;
     height: auto;
+    z-index: 2;
   }
 
-  /* Process List */
+  /* ------------------ Email-3 Third Section Start ------------------ */
   .process-list .process {
-    gap: 18px;
-    flex-direction: column;
+    gap: 4px;
+    padding-top: 23px;
   }
+
+  .process-list .process .process-left .process-list,
+  .process-list .process .process-right .process-list {
+    gap: 7px;
+  }
+
+  .process-list .process .process-left,
+  .process-list .process .process-right {
+    gap: 9px;
+  }
+
 
   .process-list .process .process-right {
     margin-left: 1rem;
@@ -757,14 +798,14 @@
   }
 
   .process-list .logo-w-title {
-    flex-direction: column;
     gap: 2px;
+    margin-top: 12px;
   }
 
 
   .process-list .logo-w-title .email-3-logo img {
-    width: 203px;
-    height: 100px;
+    width: 143px;
+    height: auto;
   }
 
   /* ------------------ Email-3 Feedback Section Start ------------------ */
@@ -832,13 +873,10 @@
   }
 
   /* Before After 3 */
-
-  .ba-3 .pink-star-1,
-  .ba-3 .pink-star-2,
-  .ba-3 .pink-star-3,
-  .ba-5 .blue-star-1,
-  .ba-5 .blue-star-2 {
-    display: none;
+  .ba-1 .ba-1-content {
+    height: auto;
+    padding: 30px 0;
+    gap: 5px;
   }
 
   .ba-1 .ba-1-content .top-title,
@@ -849,13 +887,9 @@
     font-size: 24px;
   }
 
-  .ba-1 .ba-1-content .ba-images {
-    flex-direction: column;
-  }
-
   .ba-1 .ba-1-content .ba-images .before-one img,
   .ba-1 .ba-1-content .ba-images .after-one img {
-    width: 230px;
+    width: 150px;
     height: auto;
   }
 
@@ -865,9 +899,27 @@
     height: auto;
   }
 
+
+  .ba-3 .pink-star-1 {
+    width: 23px;
+  }
+
+  .ba-3 .pink-star-2 {
+    width: 40px;
+    top: 15rem;
+    left: 0;
+  }
+
+  .ba-3 .pink-star-3 {
+    width: 66.77px;
+    top: 16rem;
+    right: 0;
+  }
+
   .ba-3 .ba-3-content {
     height: auto;
     padding: 3rem 0;
+    margin-bottom: 2rem;
   }
 
   .ba-3 .ba-3-content .ba-images .before-three img {
@@ -895,6 +947,18 @@
   .ba-5 .ba-5-content .ba-images .after-five img {
     width: 130px;
     height: auto;
+  }
+
+  .ba-5 .blue-star-1 {
+    width: 42px;
+    top: 7rem;
+    right: 0rem;
+  }
+
+  .ba-5 .blue-star-2 {
+    width: 54px;
+    right: 2rem;
+    bottom: 16rem;
   }
 
 
@@ -946,7 +1010,7 @@
     font-size: 15px;
   }
 
-  .hero-bottom .hero-left .space{
+  .hero-bottom .hero-left .space {
     padding-top: 0.2rem;
   }
 
@@ -1275,7 +1339,7 @@
     font-size: 14px;
   }
 
-/* -----------------Section Nine Start----------------- */
+  /* -----------------Section Nine Start----------------- */
 
   .section-nine {
     margin-top: 1.2rem;
@@ -1283,8 +1347,8 @@
 
   .time-content {
     column-gap: 10px;
-    margin-bottom: 20px;
-    padding-top: 12px;
+    margin-bottom: 28px;
+    margin-top: 23px;
   }
 
   .time-content .colon {
@@ -1358,51 +1422,81 @@
     height: 31.413px;
   }
 
+
+
   /* --------------------------------------------------- Email-2 Page Start ------------------------------------------- */
 
-  /* Email-2 Home Section */
+  /* ----------------- Email-2 Home Start----------------- */
+
+  .hero-banner .left-star {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    width: 48px;
+    height: 48px;
+  }
+
+  .hero-banner .left-star-down {
+    width: 26px;
+    height: 26px;
+  }
+
   .hero-banner .right-star {
-    width: 106.77px;
-    height: 107.809px;
+    width: 86.77px;
+    height: 87.809px;
   }
 
   .hero-two-bottom .hero-two-right {
-    margin-top: 3.5rem;
-    z-index: 2;
+    margin-top: -1.1rem;
   }
 
   .hero-banner .hero-heading h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .hero-banner .hero-heading h1 {
-    padding-top: 15px;
-    font-size: 32px;
+    padding-top: 0px;
+    font-size: 24px;
   }
 
+  .hero-two-bottom .hero-two-left {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .hero-two-bottom .hero-two-left h5 {
+    font-size: 13px;
+    padding-bottom: 2px;
+  }
 
   .hero-two-bottom .hero-two-right img {
-    width: 221.726px;
-    height: 270.262px;
+    width: 230.726px;
+    height: auto;
   }
 
   /* ----------------- Email-2 Tips Section Start----------------- */
   .tips {
-    flex-direction: column;
-    gap: 25px;
+    gap: 20px;
     height: auto;
-    padding-top: 3.5rem;
-    padding-bottom: 5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-top: -1.7rem;
   }
 
   .tips .tips-left img {
-    width: 320px;
-    height: 385px;
+    width: 230px;
+    height: auto;
+  }
+
+  .tips .tips-right {
+    gap: 2px;
   }
 
   .tips .tips-right .tips-item {
-    gap: 8px;
+    gap: 5px;
   }
+
 
   /* ----------------- Email-2 Service Section Start----------------- */
   .service-content {
@@ -1410,18 +1504,19 @@
   }
 
   .service-content .content-left .left-icon {
-    width: 120px;
+    width: 95px;
+    height: auto;
   }
 
   .service-content .button .service-btn {
-    padding: 14px 50px;
+    padding: 12px 40px;
     margin-top: 12px;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .service-content .content-right .video-link img {
-    width: 200.731px;
-    height: 361px;
+    width: 190.731px;
+    height: auto;
   }
 
   .service-content .content-right .video-icon img {
@@ -1430,57 +1525,79 @@
   }
 
   /* ----------------- Email-2 Service Items Start----------------- */
-  .service-items .service-item-list .service-list {
-    margin-left: 0 auto;
+
+  .service-items {
+    margin-top: 18px;
+    margin-bottom: 23px;
   }
 
-  .service-items .service-item-list .service-list .blue-icon svg {
-    width: 40px;
-    height: 40px;
-    margin-top: -8px;
+  .service-items .service-item-list {
+    gap: 0px;
   }
+
+  .service-items .service-item-list .service-list {
+    margin-left: 0%;
+
+  }
+
+
+  .service-items .service-item-list .service-list .blue-icon svg {
+    width: 25px;
+    height: 25px;
+  }
+
+  .service-items .service-img img {
+    width: 572px;
+    height: auto;
+  }
+
 
   /* ----------------- Email-2 Pink BOx Start----------------- */
   .pink-box {
-    width: 580px;
-    height: 181px;
+    width: 570px;
+    height: 111px;
   }
 
   /* ----------------- Email-2 Review Section Start----------------- */
+  .review-section {
+    margin-bottom: -1rem;
+  }
+
   .review-section .review-content {
     align-items: center;
-    flex-direction: column;
-    gap: 30px;
+    gap: 40px;
   }
 
   .review-section .review-content .review-left-side h4,
   .review-section .review-content .review-right-side h4 {
-    font-size: 22px;
-    padding-bottom: 20px;
+    font-size: 18px;
+    padding-bottom: 15px;
   }
 
   .review-section .review-content .review-left-side img {
-    width: 323px;
-    height: 310px;
+    width: 273px;
+    height: auto;
   }
 
   .review-section .review-content .review-left-side .blue-btn button,
   .review-section .review-content .review-right-side .blue-btn button {
-    width: 210px;
-    padding: 16px 30px;
-    font-size: 20px;
+    width: 190px;
+    padding: 12px 38px;
+    font-size: 18px;
+    text-align: center;
   }
 
   .review-section .review-content .review-right-side img {
-    width: 330px;
-    height: 270px;
+    width: 260px;
+    height: auto;
   }
 
   .review-section .brand-logo-two img {
-    margin-top: 34px;
-    width: 204px;
-    height: 107px;
+    margin-top: 25px;
+    width: 224px;
+    height: auto;
   }
+
 
   /* --------------------------------------------------- Email Three Page Start ------------------------------------------- */
 
@@ -1491,38 +1608,42 @@
   }
 
   .hero-banner-three .h-top {
-    font-size: 26px;
+    font-size: 24px;
   }
 
   .hero-banner-three .h-bottom {
-    font-size: 20px;
+    font-size: 26px;
   }
 
   .hero-banner-three .left-star-down {
-    width: 100px;
+    width: 70px;
   }
 
-  .home-three-content {
-    flex-direction: column;
+  .home-three-content .left-content {
+    gap: 10px;
   }
 
   .home-three-content .left-content .part-two {
-    height: 125px;
-    width: 396px;
+    height: 70px;
+    width: 395px;
+  }
+
+  .home-three-content .left-content .part-two h5 {
+    padding-left: 25px;
   }
 
   .home-three-content .left-content .part-two img {
-    width: 16px;
+    width: 12px;
   }
 
   .home-three-content .left-content .part-five .middle-img img {
     width: 120px;
-    height: 120px;
+    height: auto;
   }
 
   .home-three-content .left-content .part-five .middle-img {
-    right: -2px;
-    bottom: -21rem;
+    right: -54px;
+    bottom: 0rem;
   }
 
 
@@ -1534,114 +1655,256 @@
   }
 
   .home-three-content .left-content .part-five .left-to-right img {
-    display: none;
+    width: 162px;
+    height: auto;
+    margin-left: 6rem;
+    margin-top: -1.5rem;
   }
 
 
   .home-three-content .right-content img {
-    width: 250px;
-    height: 354px;
+    width: 210px;
+    height: auto;
   }
 
   /* Section 2 */
 
-  .before-after .star-icon-1 {
-    width: 86.77px;
-    height: 87.809px;
+  .section-two .before-after {
+    padding: 65px 0;
+    gap: 5px;
   }
 
+  .before-after .cross-icon-1 {
+    position: absolute;
+    top: 9rem;
+    left: 1rem;
+    width: 28.255px;
+    height: auto;
+  }
+
+  .before-after .cross-icon-2 {
+    position: absolute;
+    top: 25rem;
+    left: 0rem;
+    width: 45.287px;
+    height: auto;
+  }
+
+  .before-after .star-icon-1 {
+    position: absolute;
+    top: 35rem;
+    right: 0;
+    width: 76.77px;
+    height: auto;
+    z-index: 1;
+  }
+
+
   .before-after .before-after-img {
-    gap: 25px;
+    gap: 30px;
   }
 
   .before-after .before-after-img .before-26 {
-    width: 210px;
+    width: 230px;
+    height: auto;
   }
 
   .before-after .before-after-img .after-37 {
-    width: 210px;
+    width: 230px;
+    height: auto;
+    z-index: 2;
   }
 
-  /* Process List */
-  .process-list .process .process-list img {
-    height: 35px;
-    width: 35px;
+  /* ------------------ Email-3 Third Section Start ------------------ */
+  .process-list .process {
+    gap: 12px;
+    padding-top: 23px;
   }
+
+  .process-list .process .process-left .process-list,
+  .process-list .process .process-right .process-list {
+    gap: 7px;
+  }
+
+  .process-list .process .process-left,
+  .process-list .process .process-right {
+    gap: 9px;
+  }
+
+
+  .process-list .process .process-right {
+    margin-left: 1rem;
+  }
+
+
+  .process-list .process .process-list img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .process-list .logo-w-title {
+    gap: 2px;
+    margin-top: 28px;
+  }
+
 
   .process-list .logo-w-title .email-3-logo img {
-    width: 203px;
-    height: 100px;
+    width: 173px;
+    height: auto;
   }
 
   /* ------------------ Email-3 Feedback Section Start ------------------ */
+
+
   .feedback-content .feedback-container .feedback-left .pinkbox-left {
     width: 380px;
-    height: 180px;
+    height: 130px;
+    padding: 20px;
   }
 
   .feedback-content .feedback-container .feedback-left .pinkbox-right {
-    width: 380px;
-    height: 190px;
+    width: 400px;
+    height: 130px;
+    padding: 30px;
   }
 
   .feedback-content .feedback-container .feedback-left .pinkbox-left img,
   .feedback-content .feedback-container .feedback-left .pinkbox-right img {
-    width: 55.498px;
-    height: 54.157px;
+    width: 45.498px;
+    height: 44.157px;
   }
 
   .feedback-content .feedback-container .feedback-right .client-img-1 {
-    width: 208px;
-    height: 199.465px;
+    width: 148px;
+    height: auto;
   }
 
   .feedback-content .feedback-container .feedback-right .client-img-2 {
-    width: 199.047px;
-    height: 307px;
+    width: 150px;
+    height: auto;
   }
 
   .feedback-content .feedback-container .feedback-right .client-img-3 {
-    width: 211.134px;
-    height: 273.248px;
+    width: 141.134px;
+    height: auto;
   }
 
   .feedback-content .feedback-container .feedback-right .client-img-4 {
-    width: 198.138px;
-    height: 236.06px;
+    width: 141.134px;
+    height: auto;
   }
 
 
   .feedback-content .feedback-container .feedback-right .client-img-5 {
-    width: 211px;
-    height: 222.987px;
+    width: 151.134px;
+    height: auto;
   }
 
   .feedback-content .feedback-container .feedback-right .client-img-6 {
-    width: 194.157px;
-    height: 255.416px;
+    width: 141.134px;
+    height: auto;
   }
 
 
   .feedback-content .feedback-container .feedback-right .client-img-7 {
-    width: 210.351px;
-    height: 182.885px;
+    width: 171.134px;
+    height: auto;
     margin-right: 0px;
   }
 
   .feedback-content .feedback-container .feedback-right .client-img-8 {
-    width: 207.277px;
-    height: 337px;
-    margin-right: -2rem;
+    width: 151.134px;
+    height: auto;
   }
 
-  /* Before After 3 */
 
-  .ba-3 .pink-star-1,
-  .ba-3 .pink-star-2,
-  .ba-3 .pink-star-3,
-  .ba-5 .blue-star-1,
+  /* Before After 3 */
+  .ba-1 .ba-1-content {
+    height: auto;
+    padding: 50px 0;
+    gap: 5px;
+  }
+
+  .ba-1 .ba-1-content .top-title,
+  .ba-2 .ba-2-content .top-title,
+  .ba-4 .ba-3-content .top-title,
+  .ba-5 .ba-5-content .top-title,
+  .ba-5 .ba-5-content .top-title {
+    font-size: 34px;
+  }
+
+  .ba-1 .ba-1-content .ba-images .before-one img,
+  .ba-1 .ba-1-content .ba-images .after-one img {
+    width: 280px;
+    height: auto;
+  }
+
+  .ba-2 .ba-2-content .ba-images .before-two img,
+  .ba-2 .ba-2-content .ba-images .after-two img {
+    width: 230px;
+    height: auto;
+  }
+
+
+  .ba-3 .pink-star-1 {
+    width: 43px;
+  }
+
+  .ba-3 .pink-star-2 {
+    width: 60px;
+    top: 15rem;
+    left: 0;
+  }
+
+  .ba-3 .pink-star-3 {
+    width: 96.77px;
+    top: 12rem;
+    right: 0;
+  }
+
+  .ba-3 .ba-3-content {
+    height: auto;
+    padding: 3rem 0;
+    margin-bottom: 2rem;
+  }
+
+  .ba-3 .ba-3-content .ba-images .before-three img {
+    width: 230px;
+    height: auto;
+  }
+
+  .ba-3 .ba-3-content .ba-images .after-three img {
+    width: 210px;
+    height: auto;
+  }
+
+  .ba-4 .ba-4-content .ba-images .before-four img,
+  .ba-4 .ba-4-content .ba-images .after-four img {
+    width: 230px;
+    height: auto;
+  }
+
+  .ba-5 .ba-5-content {
+    height: auto;
+    padding: 3rem 0;
+  }
+
+  .ba-5 .ba-5-content .ba-images .before-five img,
+  .ba-5 .ba-5-content .ba-images .after-five img {
+    width: 230px;
+    height: auto;
+  }
+
+  .ba-5 .blue-star-1 {
+    width: 42px;
+    top: 7rem;
+    right: 0rem;
+  }
+
   .ba-5 .blue-star-2 {
-    display: none;
+    width: 54px;
+    right: 2rem;
+    bottom: 16rem;
   }
 
 }
@@ -1725,15 +1988,15 @@
     height: 200px;
   }
 
-    /* -----------------Section Eight Start----------------- */
+  /* -----------------Section Eight Start----------------- */
 
-    .section-eight-content {
-      margin-top: 1rem;
-      height: auto;
-      padding-top: 2.5rem;
-      padding-bottom: 2.5rem;
-    }
-  
+  .section-eight-content {
+    margin-top: 1rem;
+    height: auto;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
 
   .section-eight .right-img {
     background-size: cover;
@@ -1971,12 +2234,13 @@
   }
 
   .home-three-content .left-content .part-five .left-to-right img {
-    display: none;
+    width: 150px;
+    height: auto;
   }
 
   .home-three-content .left-content .part-five .middle-img {
-    right: -50px;
-    bottom: -3rem;
+    right: -120px;
+    bottom: 1rem;
   }
 
 
@@ -2081,14 +2345,14 @@
   }
 
   .home-three-content .left-content .part-five .middle-img img {
-    width: 280px;
-    height: 280px;
+    width: 230px;
+    height: auto;
   }
 
   .home-three-content .left-content .part-five .middle-img {
     position: absolute;
     right: -100px;
-    bottom: -9rem;
+    bottom: -3rem;
   }
 
   .home-three-content .right-content img {
