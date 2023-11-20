@@ -135,6 +135,7 @@ img {
 
 .home {
   margin: 0 auto;
+  padding-bottom: 4.4rem;
 }
 
 .home .hero-banner {
@@ -207,7 +208,8 @@ img {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
-  margin-top: 27px;
+  margin-top: 2.6rem;
+  margin-bottom: 3rem;
 }
 
 /* Top Part */
@@ -360,8 +362,6 @@ img {
 }
 
 
-
-
 .boxes {
   padding-top: 12px;
   padding-bottom: 26px;
@@ -377,8 +377,9 @@ img {
   font-size: 34px;
   font-weight: 700;
   color: #fff;
-  background: url(/assets/images/email-one/Ellipse\ 7.svg);
+  background: url(/assets/images/email-one/Ellipse\ 7.png);
   background-repeat: no-repeat;
+  background-size: 100%;
   height: 77px;
   width: 77px;
   text-align: center;
@@ -432,6 +433,7 @@ img {
   margin-bottom: 10rem;
   position: relative;
   z-index: 30;
+  margin-bottom: 12rem;
 }
 
 .color-plate .color-box {
@@ -506,6 +508,7 @@ img {
   margin: 0 auto;
   border-radius: 10px;
   margin-bottom: 70px;
+  margin-top: 45px;
 }
 
 .top-content {
@@ -538,6 +541,7 @@ img {
 /* -----------------Section Six Start----------------- */
 .section-six {
   margin-bottom: 76px;
+  margin-top: 38px;
 }
 
 .section-six-content {
@@ -582,7 +586,8 @@ img {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
-  margin-top: 27px;
+  margin-top: 17px;
+  margin-bottom: 2.8rem;
 }
 
 .section-seven-content {
@@ -591,7 +596,7 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 35px;
-  padding-top: 128px;
+  padding-top: 108px;
   padding-bottom: 86px;
 }
 
@@ -610,6 +615,7 @@ img {
   padding: 30px 20px;
   text-align: center;
   line-height: 1.1;
+  margin-top: 2.3rem;
 }
 
 .section-seven-content .content-top .content-left .blue-icon {
@@ -632,6 +638,8 @@ img {
 /* -----------------Section Seven End----------------- */
 
 
+
+
 /* -----------------Section Eight Start----------------- */
 .section-eight {
   width: 100%;
@@ -640,6 +648,7 @@ img {
   background-size: 100% 100%;
   background-position: center;
   position: relative;
+  margin-top: 2.5rem;
 
 }
 
@@ -660,7 +669,6 @@ img {
   justify-content: center;
   height: 782px;
   width: 100%;
-
 }
 
 .section-eight-content .left-content {
@@ -717,6 +725,7 @@ img {
   justify-content: center;
   column-gap: 30px;
   margin-bottom: 56px;
+  margin-top: 33px;
 }
 
 .time-content .colon {

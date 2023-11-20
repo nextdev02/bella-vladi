@@ -1,32 +1,39 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   :root {
-    --heading-1: 20px;
-    --heading-2: 20px;
-    --heading-3: 19px;
-    --heading-4: 15px;
-    --heading-5: 15px;
+    --heading-1: 14px;
+    --heading-2: 15px;
+    --heading-3: 12px;
+    --heading-4: 10px;
+    --heading-5: 10px;
   }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  line-height: 1.3em;
-}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    line-height: 1.3em;
+  }
 
+  .home {
+    padding-bottom: 1.2rem;
+  }
 
   /* Navbar Logo */
 
+  .navbar {
+    padding: 21px 80px;
+  }
+
   .navbar img {
-    width: 140.706px;
-    height: 25px;
+    width: 120.706px;
+    height: 22px;
   }
 
   /* Home Banner */
   .home .hero-banner {
-    height: 156px;
+    height: 150px;
   }
 
   .hero-banner .left-icon {
@@ -39,140 +46,155 @@ h5 {
     height: 60px;
   }
 
-
   /* Hero Bottom */
-  .hero-bottom {
-    flex-direction: column;
-    gap: 12px;
-  }
 
-  .hero-left {
-    display: flex;
-    gap: 3px;
+  .hero-bottom .hero-left .hero-content {
+    font-size: 10px;
   }
 
   .hero-bottom .hero-left .arrow {
-    display: none;
+    width: 80.106px;
+    margin-top: -1rem;
+    margin-left: 6rem;
   }
 
   .hero-bottom .hero-right .hero-left-img img {
-    width: 300px;
+    width: 150px;
   }
 
 
+
   /* Section 2 */
+
   .section-two {
-    margin-top: 0px;
+    margin-top: 20px;
+    margin-bottom: 1.4rem;
+  }
+
+  .top-part {
+    padding-top: 13px;
+  }
+
+
+  .top-part .top-progress {
+    padding-top: 12px;
   }
 
   .top-part .shadow-text,
   .bottom-part .shadow-text {
-    font-size: 41.625px;
+    font-size: 35px;
   }
-
-  .top-part .top-progress {
-    flex-direction: column;
-  }
-
 
   .top-part .top-progress img {
-    width: 47px;
-    height: 54px;
-    display: none;
+    width: 30px;
+    height: 34px;
+    margin-top: -0.4rem;
   }
 
   .top-part .top-progress .blue-box,
   .top-part .top-progress .pink-boxx {
-    padding: 10px 20px 10px 20px;
+    padding: 5px 10px 5px 10px;
   }
 
-  /* Section 4 */
-  .section-four {
-    padding-bottom: 136px;
-    position: relative;
-    z-index: 3;
+  /* Bottom Part */
+  .bottom-part {
+    padding-top: 12px;
+  }
+
+  .bottom-part .bottom-content {
+    padding-top: 2px;
+    padding-bottom: 36px;
   }
 
 
-  .title-four {
-    padding-top: 40px;
-    padding-bottom: 2rem;
+  /* -----------------List Start----------------- */
+
+  .round {
+    width: 6px;
+    height: 6px;
   }
 
-  .boxes .number-plate .num {
-    display: none;
-  }
-
-  .box-items {
-    min-width: fit-content;
-  }
-
-  /* Color Plate */
-  .color-plate {
-    margin-bottom: 3rem;
-  }
-
-  .color-plate .color-box {
-    height: 180px;
-    width: auto;
-  }
-
-  .color-box .left-plate .plate-content {
-    font-size: 14px;
-  }
-
-  .color-box .left-plate .brand-logo {
-    background-color: #fff;
-    width: 124px;
-    height: 67px;
-  }
-
-  .brand-logo .logo-one {
-    width: 105px;
-    height: 56px;
-  }
-
-  .brand-logo .logo-two {
-    width: 115px;
-    height: 30px;
-  }
-
-  .right-plate img {
-    width: 108px;
-    height: 180px;
-  }
-
-  /* List */
   .items {
-    flex-direction: column;
-    padding-left: 3rem;
+    padding-left: 0rem;
     gap: 5px;
-    padding-top: 35px;
-    padding-bottom: 16px;
+    padding-top: 15px;
+    padding-bottom: 10px;
   }
 
   .item h5 .note {
-    font-size: 12px;
+    font-size: 10px;
   }
 
+  /* -----------------Section Four Start----------------- */
+  .section-four {
+    padding-bottom: 146px;
+  }
 
-  /* Section 4 */
-  .star-one,
-  .star-two,
-  .star-three,
-  .star-four,
-  .star-five {
-    display: none;
+  .star-one {
+    width: 20px;
+    height: 20px;
+    left: 0;
+    top: 2rem;
+  }
+
+  .star-two {
+    width: 18.255px;
+    height: 18.255px;
+    right: 1rem;
+  }
+
+  .star-three {
+    width: 18.255px;
+    height: 18.255px;
+    left: 0.4rem;
   }
 
   .star-four {
-    display: none;
+    width: 19.77px;
+    height: 19.809px;
+  }
+
+  .star-five {
+    width: 25.287px;
+    height: 25.287px;
+    left: 0.7rem;
+  }
+
+  .title-four {
+    padding-top: 30px;
+    padding-bottom: 0.6rem;
+  }
+
+  .boxes {
+    padding-top: 1px;
+    padding-bottom: 6px;
   }
 
 
+  .boxes .number-plate .num {
+    height: 37px;
+    width: 37px;
+    font-size: 14px;
+    padding-top: 8px;
+  }
+
+  .box-items {
+    margin-top: -10px;
+    padding: 40px;
+    width: 690px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    z-index: 3;
+  }
+
+  .box-details {
+    padding-top: 5px;
+  }
+
   .box-items {
     width: 300px;
-    padding: 10px 25px;
+    padding: 10px 15px;
   }
 
   .box-right {
@@ -181,7 +203,7 @@ h5 {
   }
 
   .box-two img {
-    width: 60px;
+    width: 50px;
   }
 
   .box-three img {
@@ -189,38 +211,80 @@ h5 {
     margin-left: -1rem;
   }
 
-  /* Color Plate */
 
+
+  /* -----------------Color Plate Start----------------- */
   .left-plate {
     padding: 5px 10px;
   }
 
+  .box-items {
+    min-width: fit-content;
+  }
 
-  /* Section 5 */
+  .color-plate {
+    margin-bottom: 4.4rem;
+  }
 
+  .color-plate .color-box {
+    height: 180px;
+    width: auto;
+  }
+
+  .color-box .left-plate .plate-content {
+    font-size: 10px;
+  }
+
+  .color-box .left-plate .brand-logo {
+    background-color: #fff;
+    width: 124px;
+    height: 57px;
+  }
+
+  .brand-logo .logo-one {
+    width: 85px;
+    height: 36px;
+  }
+
+  .brand-logo .logo-two {
+    width: 85px;
+    height: 20px;
+  }
+
+  .right-plate img {
+    width: 108px;
+    height: 180px;
+  }
+
+
+  /* -----------------Sectioon Five Start----------------- */
   .section-five-box {
     width: 300px;
-    height: 220px;
-    padding: 12px;
+    height: 165px;
+    margin-top: 25px;
+    margin-bottom: 30px;
   }
 
   .exc-mark img {
-    width: 13px;
-    display: none;
+    width: 8px;
   }
 
   .top-content {
-    padding: 0px;
+    padding: 10px;
   }
 
-
   .top-content img {
-    width: 280.509px;
+    width: 240px;
     height: auto;
   }
 
 
-  /* Section 6 */
+  /* -----------------Section Six Start----------------- */
+  .section-six {
+    margin-bottom: 26px;
+    margin-top: 12px;
+  }
+
   .section-six-content .left-content img {
     width: 150px;
     height: auto;
@@ -244,80 +308,98 @@ h5 {
 
 
 
-  /* Section Seven */
-
+  /* -----------------Section Seven Start----------------- */
   .section-seven {
     margin-top: 0px;
+    margin-bottom: 1rem;
   }
 
   .section-seven-content {
-    gap: 15px;
-    padding-top: 48px;
-    padding-bottom: 46px;
+    gap: 5px;
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
 
   .section-seven-content .content-top {
-    flex-direction: column;
-    gap: 14px;
+    gap: 0px;
   }
 
   .section-seven-content .content-top .content-left .blue-icon .white-box {
-    height: min-content;
+    height: auto;
+    padding: 10px 10px;
+    line-height: 1.1;
+    margin-top: 14.2px;
   }
 
   .section-seven-content .content-top .content-left .blue-icon img {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
   }
 
   .section-seven-content .content-top .content-right img {
-    width: 230.571px;
+    width: 120.571px;
   }
 
 
-  /* Section 8 */
+
+
+  /* -----------------Section Eight Start----------------- */
 
   .section-eight-content {
     height: auto;
-    padding-top: 2.9rem;
-    padding-bottom: 2.9rem;
-  }
-
-  .section-eight-content .left-content {
-    width: 100%;
-    padding: 0 5px;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
   .section-eight .right-img {
-    display: none;
+    background-size: cover;
+    width: 118.02px;
+    height: 233px;
+    bottom: 0.6rem;
+    right: 0;
+    overflow: hidden;
   }
 
   .section-eight-content .content-title h1 {
-    font-size: 16px;
+    font-size: 11px;
   }
 
+  .section-eight-content .left-content .button {
+
+    margin-top: -2.3rem;
+  }
+
+  .section-eight-content .left-content .title {
+
+    font-size: 10px;
+  }
+
+
   .section-eight-content .left-content .button img {
-    width: 53.424px;
+    width: 32.424px;
     height: 41px;
   }
 
   .section-eight-content .left-content .button button {
     padding: 2px 30px;
-    font-size: 20px;
+    font-size: 12px;
+    margin-top: 2rem;
   }
 
   .section-eight-content .left-content h3 {
     font-size: 14px;
   }
 
-  /* Time */
+/* -----------------Section Nine Start----------------- */
+
   .section-nine {
-    margin-top: 1.5rem;
+    margin-top: 1.2rem;
   }
 
   .time-content {
     column-gap: 10px;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
+    padding-top: 12px;
   }
 
   .time-content .colon {
@@ -334,20 +416,21 @@ h5 {
 
   .time-content label {
     font-size: 12px;
+    margin-top: -18px;
   }
 
 
   /* About */
 
   .about-me {
-    margin-bottom: 26px;
+    margin-bottom: 12px;
   }
 
   .about-content {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 12px;
     padding-top: 13px;
   }
 
@@ -357,7 +440,7 @@ h5 {
   }
 
   .about-content .details {
-    gap: 5px;
+    gap: 2px;
   }
 
   .about-content .details .name,
@@ -379,9 +462,15 @@ h5 {
     width: 20px;
   }
 
+  /* Footer */
+
+  .footer {
+    padding: 10px 0;
+  }
+
   .footer .footer-logo {
     width: 120.254px;
-    height: 30.413px;
+    height: 21.413px;
   }
 
   /* --------------------------------------------------- Email-2 Page Start ------------------------------------------- */
@@ -792,250 +881,454 @@ h5 {
 @media (min-width: 601px) and (max-width: 812px) {
   :root {
     --heading-1: 24px;
-    --heading-2: 20px;
-    --heading-3: 19px;
-    --heading-4: 15px;
-    --heading-5: 18px;
+    --heading-2: 22px;
+    --heading-3: 20px;
+    --heading-4: 16px;
+    --heading-5: 16px;
   }
 
+  .home {
+    padding-bottom: 1.2rem;
+  }
 
   /* Navbar Logo */
 
+  .navbar {
+    padding: 21px 80px;
+  }
+
   .navbar img {
-    width: 200.706px;
-    height: 35px;
+    width: 160.706px;
+    height: 26px;
   }
 
   /* Home Banner */
   .home .hero-banner {
-    height: 206px;
+    height: 150px;
   }
 
   .hero-banner .left-icon {
-    width: 90px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
   }
 
   .hero-banner .right-icon {
-    width: 90px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
   }
-
 
   /* Hero Bottom */
-  .hero-bottom {
-    flex-direction: column;
-    gap: 16px;
-    width: 100%;
-  }
 
-  .hero-left {
-    display: flex;
-    gap: 12px;
+  .hero-bottom .hero-left .hero-content {
+    font-size: 15px;
   }
 
   .hero-bottom .hero-left .arrow {
-    display: none;
+    width: 110px;
+    margin-top: -1rem;
+    margin-left: 8rem;
   }
 
-  /* Section 4 */
+  .hero-bottom .hero-right .hero-left-img img {
+    width: 240px;
+  }
+
+
+
+  /* Section 2 */
+
+  .section-two {
+    margin-top: 20px;
+    margin-bottom: 1.4rem;
+  }
+
+  .top-part {
+    padding-top: 13px;
+  }
+
+
+  .top-part .top-progress {
+    padding-top: 12px;
+  }
+
+  .top-part .shadow-text,
+  .bottom-part .shadow-text {
+    font-size: 35px;
+  }
+
+  .top-part .top-progress img {
+    width: 30px;
+    height: 34px;
+    margin-top: -0.4rem;
+  }
+
+  .top-part .top-progress .blue-box,
+  .top-part .top-progress .pink-boxx {
+    padding: 5px 10px 5px 10px;
+  }
+
+  /* Bottom Part */
+  .bottom-part {
+    padding-top: 12px;
+  }
+
+  .bottom-part .bottom-content {
+    padding-top: 2px;
+    padding-bottom: 36px;
+  }
+
+
+  /* -----------------List Start----------------- */
+
+  .round {
+    width: 6px;
+    height: 6px;
+  }
+
+  .items {
+    padding-left: 0rem;
+    gap: 5px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  .item h5 .note {
+    font-size: 10px;
+  }
+
+  /* -----------------Section Four Start----------------- */
+  .section-four {
+    padding-bottom: 146px;
+  }
+
+  .star-one {
+    width: 40px;
+    height: 40px;
+    left: 0;
+    top: 2rem;
+  }
+
+  .star-two {
+    width: 38.255px;
+    height: 38.255px;
+    right: 1rem;
+  }
+
+  .star-three {
+    width: 38.255px;
+    height: 38.255px;
+    left: 0.4rem;
+  }
+
+  .star-four {
+    width: 39.77px;
+    height: 49.809px;
+  }
+
+  .star-five {
+    width: 25.287px;
+    height: 25.287px;
+    left: 0.7rem;
+  }
+
+  .title-four {
+    padding-top: 40px;
+    padding-bottom: 0.6rem;
+  }
+
+  .boxes {
+    padding-top: 1px;
+    padding-bottom: 16px;
+  }
+
+
+  .boxes .number-plate .num {
+    height: 57px;
+    width: 57px;
+    font-size: 24px;
+    padding-top: 10px;
+  }
+
+
   .box-items {
-    width: 550px;
+    width: 510px;
+    padding: 30px 35px;
+  }
+
+  .box-details {
+    padding-top: 5px;
+  }
+
+  .box-right {
+    width: 108px;
+    right: -2px;
+  }
+
+  .box-two img {
+    width: 90px;
+  }
+
+  .box-three img {
+    width: 142.99px;
+    margin-left: -1rem;
+  }
+
+
+  /* -----------------Color Plate Start----------------- */
+  .left-plate {
+    padding: 5px 5px 15px 53px;
+  }
+
+  .color-plate {
+    margin-bottom: 5.4rem;
   }
 
   .color-plate .color-box {
-    height: 281px;
-    width: 550px;
+    height: 180px;
+    width: 480px;
+  }
+
+  .color-box .left-plate .plate-content {
+    font-size: 20px;
   }
 
   .color-box .left-plate .brand-logo {
     background-color: #fff;
-    width: 194px;
-    height: 97px;
+    width: 184px;
+    height: 67px;
   }
 
   .brand-logo .logo-one {
-    width: 155px;
-    height: 56px;
+    width: 105px;
+    height: 45px;
   }
 
   .brand-logo .logo-two {
-    width: 175px;
-    height: 30px;
+    width: 105px;
+    height: 40px;
   }
 
   .right-plate img {
-    width: 208px;
-    height: 294px;
-  }
-
-  /* Section 4 */
-  .star-one {
-    width: 86.77px;
-    height: 87.809px;
-  }
-
-  .star-four {
-    width: 66.77px;
-    height: 67.809px;
-  }
-
-  .box-items {
-    width: 480px;
-  }
-
-  .box-right {
-    width: 128px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
-
-  .box-two img {
-    width: 101px;
-  }
-
-  .box-three img {
-    width: 172.99px;
-    margin-left: -3rem;
+    width: 148px;
+    height: 210px;
   }
 
 
-
-  /* Section 5 */
-
+  /* -----------------Sectioon Five Start----------------- */
   .section-five-box {
-    width: 520px;
-    height: 280px;
+    width: 460px;
+    height: 235px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+
+  .exc-mark img {
+    width: 18px;
+  }
+
+  .top-content {
+    padding: 15px 40px;
   }
 
   .top-content img {
-    width: 400.509px;
+    width: 330px;
     height: auto;
   }
 
 
-  /* Section 6 */
+  /* -----------------Section Six Start----------------- */
+  .section-six {
+    margin-bottom: 36px;
+    margin-top: 18px;
+  }
+
   .section-six-content .left-content img {
-    width: 279.912px;
+    width: 250px;
     height: auto;
     margin-left: 0;
   }
 
-
-  /* Section Seven */
-
-  .section-seven-content .content-top .content-left .blue-icon .white-box {
-    height: 130px;
+  .section-six-content .right-content {
+    margin-left: -2.2rem;
   }
 
-  .section-seven-content .content-top .content-left .blue-icon img {
-    width: 30px;
-    height: 30px;
+
+  .section-six-content .right-content .highlight {
+    gap: 5px;
+  }
+
+  .section-six-content .right-content .h-one img,
+  .section-six-content .right-content .h-two img {
+    width: 80px;
+    height: 80px;
+  }
+
+
+
+  /* -----------------Section Seven Start----------------- */
+  .section-seven {
+    margin-top: 0px;
+    margin-bottom: 1.5rem;
+  }
+
+  .section-seven-content {
+    gap: 15px;
+    padding-top: 40px;
+    padding-bottom: 50px;
   }
 
   .section-seven-content .content-top {
-    gap: 14px;
+    gap: 10px;
+  }
+
+  .section-seven-content .content-top .content-left .blue-icon .white-box {
+    height: auto;
+    padding: 15px 10px;
+    line-height: 1.1;
+    margin-top: 14.2px;
+  }
+
+  .section-seven-content .content-top .content-left .blue-icon img {
+    width: 35px;
+    height: 35px;
   }
 
   .section-seven-content .content-top .content-right img {
-    width: 230.571px;
+    width: 240.571px;
   }
 
 
-  /* Section 8 */
+
+
+  /* -----------------Section Eight Start----------------- */
 
   .section-eight-content {
+    margin-top: 1rem;
     height: auto;
-    padding-top: 3.9rem;
-    padding-bottom: 3.9rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
-
-  .section-eight-content .left-content {
-    width: 100%;
-    padding: 0 5px;
-  }
-
 
   .section-eight .right-img {
-    display: none;
+    background-size: cover;
+    width: 178.02px;
+    height: 343px;
+    bottom: 0.6rem;
+    right: 0;
+    overflow: hidden;
   }
 
   .section-eight-content .content-title h1 {
-    font-size: 24px;
+    font-size: 23px;
   }
 
+  .section-eight-content .left-content .button {
+
+    margin-top: -1.8rem;
+  }
+
+  .section-eight-content .left-content .title {
+
+    font-size: 15px;
+  }
+
+
   .section-eight-content .left-content .button img {
-    width: 53.424px;
-    height: 51px;
+    width: 122.424px;
+    height: 41px;
   }
 
   .section-eight-content .left-content .button button {
-    padding: 10px 40px;
-    font-size: 24px;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-top: 2rem;
   }
 
-  /* Time */
+  .section-eight-content .left-content h3 {
+    font-size: 14px;
+  }
+
+/* -----------------Section Nine Start----------------- */
+
+  .section-nine {
+    margin-top: 1.2rem;
+  }
+
   .time-content {
-    column-gap: 20px;
+    column-gap: 10px;
+    margin-bottom: 20px;
+    padding-top: 12px;
+  }
+
+  .time-content .colon {
+    margin-top: -2rem;
+    width: 3px;
   }
 
   .time-content input {
     font-size: 32px;
-    width: 90px;
-    height: 50px;
+    width: 95px;
+    letter-spacing: 1px;
+    height: 60px;
   }
 
   .time-content label {
-    font-size: 14px;
+    font-size: 15px;
+    margin-top: -18px;
   }
 
 
   /* About */
 
   .about-me {
-    margin-bottom: 26px;
+    margin-bottom: 22px;
   }
 
   .about-content {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 16px;
     padding-top: 13px;
   }
 
   .about-content .my-img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
   }
 
   .about-content .details {
-    gap: 5px;
+    gap: 2px;
   }
 
   .about-content .details .name,
   .about-content .details .mail {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .about-content .details img {
-    width: 90.87px;
-    height: 40px;
+    width: 120.87px;
+    height: 50px;
   }
 
   .about-content .details .social-icon {
-    gap: 10px;
+    gap: 15px;
   }
 
   .about-content .details .social-icon svg {
-    height: 23px;
-    width: 23px;
+    height: 35px;
+    width: 35px;
+  }
+
+  /* Footer */
+
+  .footer {
+    padding: 10px 0;
   }
 
   .footer .footer-logo {
-    width: 170.254px;
-    height: 40.413px;
+    width: 160.254px;
+    height: 31.413px;
   }
 
   /* --------------------------------------------------- Email-2 Page Start ------------------------------------------- */
