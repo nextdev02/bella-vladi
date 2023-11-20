@@ -352,13 +352,13 @@
   .section-eight-content {
     height: auto;
     padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-bottom: 1.1rem;
   }
 
   .section-eight .right-img {
     background-size: cover;
-    width: 188.02px;
-    height: 293px;
+    width: 178.02px;
+    height: 263px;
     bottom: 0.6rem;
     right: 0;
     overflow: hidden;
@@ -371,6 +371,7 @@
   .section-eight-content .left-content .button {
 
     margin-top: -2.3rem;
+    margin-bottom: -1rem;
   }
 
   .section-eight-content .left-content .title {
@@ -403,7 +404,7 @@
   .time-content {
     column-gap: 10px;
     margin-bottom: 20px;
-    padding-top: 12px;
+    margin-top: 13px;
   }
 
   .time-content .colon {
@@ -479,7 +480,7 @@
 
   /* --------------------------------------------------- Email-2 Page Start ------------------------------------------- */
 
-  /* Email-2 Home Section */
+/* ----------------- Email-2 Home Start----------------- */
 
   .hero-banner .left-star {
     position: absolute;
@@ -500,138 +501,156 @@
   }
 
   .hero-two-bottom .hero-two-right {
-    margin-top: 1.5rem;
+    margin-top: -1.1rem;
   }
 
   .hero-banner .hero-heading h2 {
-    font-size: 18px;
+    font-size: 10px;
   }
 
   .hero-banner .hero-heading h1 {
-    padding-top: 5px;
-    font-size: 22px;
-  }
-
-  .hero-two-bottom {
-    flex-direction: column;
-
+    padding-top: 0px;
+    font-size: 14px;
   }
 
   .hero-two-bottom .hero-two-left {
-    order: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .hero-two-bottom .hero-two-left h5
+  {
+    font-size: 8px;
+    padding-bottom: 0px;
   }
 
   .hero-two-bottom .hero-two-right img {
-    width: 221.726px;
-    height: 270.262px;
+    width: 140.726px;
+    height: auto;
   }
 
   /* ----------------- Email-2 Tips Section Start----------------- */
   .tips {
-    flex-direction: column;
-    gap: 25px;
+    gap: 10px;
     height: auto;
-    padding-top: 3.5rem;
-    padding-bottom: 5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-top: -1.7rem;
   }
 
   .tips .tips-left img {
-    width: 320px;
-    height: 385px;
+    width: 120px;
+    height: auto;
+  }
+
+  .tips .tips-right {
+    gap: 0px;
   }
 
   .tips .tips-right .tips-item {
-    gap: 8px;
+    gap: 5px;
   }
+
 
   /* ----------------- Email-2 Service Section Start----------------- */
   .service-content {
     gap: 15px;
-    flex-direction: column;
-  }
-
-  .service-content .content-left {
-    order: 1;
   }
 
   .service-content .content-left .left-icon {
-    display: none;
+    width: 75px;
+    height: auto;
   }
 
   .service-content .button .service-btn {
-    padding: 14px 50px;
+    padding: 8px 20px;
     margin-top: 12px;
-    font-size: 16px;
+    font-size: 10px;
   }
 
   .service-content .content-right .video-link img {
-    width: 200.731px;
-    height: 361px;
+    width: 120.731px;
+    height: auto;
   }
 
   .service-content .content-right .video-icon img {
-    width: 48px;
-    height: 48px;
+    width: 38px;
+    height: 38px;
   }
 
   /* ----------------- Email-2 Service Items Start----------------- */
+
+  .service-items  {
+    margin-top: 18px;
+    margin-bottom: 23px;
+  }
+
+  .service-items .service-item-list {
+    gap: 0px;
+  }
+
   .service-items .service-item-list .service-list {
     margin-left: 0%;
+
   }
 
 
   .service-items .service-item-list .service-list .blue-icon svg {
-    width: 25px;
-    height: 25px;
-    margin-top: -8px;
+    width: 15px;
+    height: 15px;
   }
 
   .service-items .service-img img {
-    width: 382px;
-    height: 253px;
+    width: 322px;
+    height: auto;
   }
 
 
   /* ----------------- Email-2 Pink BOx Start----------------- */
   .pink-box {
-    width: 390px;
-    height: 151px;
+    width: 320px;
+    height: 111px;
   }
 
   /* ----------------- Email-2 Review Section Start----------------- */
+  .review-section {
+    margin-bottom: -1rem;
+  }
+
   .review-section .review-content {
     align-items: center;
-    flex-direction: column;
-    gap: 30px;
+    gap: 10px;
   }
 
   .review-section .review-content .review-left-side h4,
   .review-section .review-content .review-right-side h4 {
-    font-size: 22px;
-    padding-bottom: 20px;
+    font-size: 12px;
+    padding-bottom: 15px;
   }
 
   .review-section .review-content .review-left-side img {
-    width: 323px;
-    height: 310px;
+    width: 163px;
+    height: auto;
   }
 
   .review-section .review-content .review-left-side .blue-btn button,
   .review-section .review-content .review-right-side .blue-btn button {
-    width: 160px;
-    padding: 11px 28px;
-    font-size: 16px;
+    width: 90px;
+    padding: 7px 28px;
+    font-size: 7px;
+    text-align: center;
   }
 
   .review-section .review-content .review-right-side img {
-    width: 330px;
-    height: 270px;
+    width: 150px;
+    height: auto;
   }
 
   .review-section .brand-logo-two img {
-    margin-top: 34px;
-    width: 194px;
-    height: 97px;
+    margin-top: 25px;
+    width: 124px;
+    height: auto;
   }
 
 
